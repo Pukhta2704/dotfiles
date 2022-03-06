@@ -1,0 +1,4 @@
+#! /usr/bin/bash
+
+#cat /home/imtiyaz/.cache/wal/sequences
+ranger

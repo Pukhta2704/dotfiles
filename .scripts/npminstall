@@ -1,0 +1,3 @@
+#! /usr/bin/bash
+npm install --ignore-scripts --no-lockfile --production --no-global --legacy-peer-deps --force
+npm install --include=dev --ignore-scripts --no-lockfile --production --no-global --legacy-peer-deps --force

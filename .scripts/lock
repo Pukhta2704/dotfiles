@@ -1,0 +1,5 @@
+#! /usr/bin/bash
+
+brightnessctl set 1%
+betterlockscreen -l
+brightnessctl set 60%

@@ -1,0 +1,67 @@
+" File Browser 
+nmap f; <Cmd>NERDTreeToggle<CR>
+" Refreshing File Browser
+nmap !! <Cmd>NERDTreeRefreshRoot<CR>        
+" Switching Between Buffers
+nmap <Tab> :bnext<Cr>
+nmap <S-Tab> :bprev<Cr>
+" Formatting Code
+" autocmd FileType javascript,typescript,json,css,html,python nmap <C-m> <Esc>:call CocAction('format')<Cr>
+autocmd FileType javascript,typescript,json,css,html nmap <C-m> <Esc>:w<Cr>:!prettier % --print-width 80 --trailing-comma none --no-semi true --write<Cr><Cr>:e %<Cr>
+autocmd FileType python nmap <C-m> <Esc>:w<Cr>:!autopep8 --in-place -a -a -a -a --max-line-length 80 % <Cr><Cr>:e %<Cr>
+autocmd FileType c,vim nmap <C-m> :lua vim.lsp.buf.formatting()<Cr>
+" Autocomplete Shortcuts
+" inoremap <silent><expr> <c-space> coc#refresh()
+" inoremap <expr> <cr> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
+" inoremap <expr> <S-Tab> pumvisible() ? "\<C-p>" : "\<S-Tab>"
+" inoremap <expr> <Tab> pumvisible() ? "\<C-n>" : "\<Tab>"
+" Comments
+nmap <C-_> gcc<Esc>
+xmap <C-_> gcc<Esc>
+imap <C-_> <Esc>gcca
+" Files and Search and Replace
+nmap <S-F> :Files<Cr>
+nmap <S-B> :Buffers<Cr>
+nmap <S-R> :Rg<Cr>
+" Better window navigation
+nnoremap <S-h> <C-w>h
+nnoremap <S-j> <C-w>j
+nnoremap <S-k> <C-w>k
+nnoremap <S-l> <C-w>l
+" Use alt + hjkl to resize windows
+nnoremap <M-j>    :resize -2<CR>
+nnoremap <M-k>    :resize +2<CR>
+nnoremap <M-h>    :vertical resize -2<CR>
+nnoremap <M-l>    :vertical resize +2<CR>
+" Quitting
+nnoremap <S-Q>    :bd<Cr>
+
+xmap $ $h
+
+nmap <C-n> mn
+nmap <C-p> mp
+let g:bookmark_annotation_sign = '⚑'
+
+let g:bookmark_no_default_key_mappings = 1
+function! BookmarkMapKeys()
+    nmap mm :BookmarkToggle<CR>
+    nmap mi :BookmarkAnnotate<CR>
+    nmap mn :BookmarkNext<CR>
+    nmap mp :BookmarkPrev<CR>
+    nmap ma :BookmarkShowAll<CR>
+    nmap mc :BookmarkClear<CR>
+    nmap mx :BookmarkClearAll<CR>
+endfunction
+function! BookmarkUnmapKeys()
+    unmap mm
+    unmap mi
+    unmap mn
+    unmap mp
+    unmap ma
+    unmap mc
+    unmap mx
+endfunction
+autocmd BufEnter * :call BookmarkMapKeys()
+autocmd BufEnter NERD_tree_* :call BookmarkUnmapKeys()
+
+autocmd FileType javascriptreact,typescriptreact,javascript,typescript,css,html imap  ;; <c-y>,

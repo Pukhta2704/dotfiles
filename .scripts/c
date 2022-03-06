@@ -1,0 +1,9 @@
+#! /usr/bin/bash
+
+gcc $1
+./a.out
+#echo "Press any key to clear"
+echo ""
+read 
+rm ./a.out
+clear

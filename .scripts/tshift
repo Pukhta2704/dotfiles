@@ -1,0 +1,4 @@
+#! /usr/bin/bash
+sudo timeshift --create
+#read 
+echo 0 | sudo timeshift --delete

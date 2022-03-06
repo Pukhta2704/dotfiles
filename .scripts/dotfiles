@@ -1,0 +1,12 @@
+#! /usr/bin/bash
+cd
+cp .local/share/xfce4/terminal/colorschemes/gruvbox ~/.config -r
+cd .config
+cp glava  gruvbox picom polybar betterlockscreenrc bspwm ranger rofi sxhkd wal fish nitrogen xfce4/terminal/accels.scm neofetch nvim nvim.old ~/dotfiles/.config/ -r
+cd
+cp Pictures .gtkrc-2.0.mine .xinitrc .scripts .xbindkeysrc .bashrc .bash_profile .zshrc .p10k.zsh ~/dotfiles -r
+cd dotfiles
+git status
+git add .
+git commit -m 'I use Arch, btw.'
+git push 

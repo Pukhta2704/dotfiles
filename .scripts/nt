@@ -1,0 +1,8 @@
+#! /usr/bin/bash
+cd 
+cd nt
+git status
+git add .
+git commit -m 'I use Arch, btw.'
+git push
+cd

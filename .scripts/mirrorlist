@@ -1,0 +1,2 @@
+#! /usr/bin/bash
+sudo reflector --latest 20 --protocol https --save /etc/pacman.d/mirrorlist --country India,France,Germany,Sweden
