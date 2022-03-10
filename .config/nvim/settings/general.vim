@@ -1,7 +1,7 @@
 set nu                                  " Display numbers
 syntax enable                           " Enables syntax highlighing
 set clipboard=unnamedplus               " Copy paste between vim and everything else
-set scrolloff=15                        " Cursor in center
+" set scrolloff=15                        " Cursor in center
 set hidden                              " Required to keep multiple buffers open multiple buffers
 " set nowrap                            " Display long lines as just one line
 set noswapfile                          " No swap file
@@ -26,3 +26,9 @@ set foldmethod=manual
 autocmd BufWritePost * silent! mkview
 autocmd BufWinEnter * silent! loadview
 autocmd BufWinLeave * silent! mkview
+autocmd CursorMoved,CursorMovedI * call CentreCursor()
+function! CentreCursor()
+    let pos = getpos(".")
+    normal! zz
+    call setpos(".", pos)
+endfunction
