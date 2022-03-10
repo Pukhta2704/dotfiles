@@ -10,6 +10,11 @@ nmap <S-Tab> :bprev<Cr>
 autocmd FileType javascript,typescript,json,css,html nmap <C-m> <Esc>:w<Cr>:!prettier % --print-width 80 --trailing-comma none --no-semi true --write<Cr><Cr>:e %<Cr>
 autocmd FileType python nmap <C-m> <Esc>:w<Cr>:!autopep8 --in-place -a -a -a -a --max-line-length 80 % <Cr><Cr>:e %<Cr>zz
 autocmd FileType c,vim nmap <C-m> :lua vim.lsp.buf.formatting()<Cr>
+
+" autocmd FileType javascript,typescript,json,css,html nmap <C-m> <Esc>:w<Cr>:!prettier % --print-width 80 --trailing-comma none --no-semi true --write<Cr><Cr>:e %<Cr>
+" autocmd FileType python nmap <C-m> <Esc>:w<Cr>:!autopep8 --in-place -a -a -a -a --max-line-length 80 % <Cr><Cr>:e %<Cr>zz
+" autocmd FileType c,vim nmap <C-m> :lua vim.lsp.buf.formatting()<Cr>
+
 " Autocomplete Shortcuts
 " inoremap <silent><expr> <c-space> coc#refresh()
 " inoremap <expr> <cr> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"

@@ -23,3 +23,6 @@ set relativenumber                      " Show relative numbers instead of actua
 " hi Search ctermfg=red ctermbg=black 
 " highlight Search guibg=guibg guifg=guifg gui=italic,underline,bold
 set foldmethod=manual
+autocmd BufWritePost * silent! mkview
+autocmd BufWinEnter * silent! loadview
+autocmd BufWinLeave * silent! mkview
