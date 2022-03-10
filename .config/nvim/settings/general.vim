@@ -20,5 +20,6 @@ set guicursor=i:block                   " Block cursor
 set guicursor+=a:blinkon0               " Disable all blinking:
 set relativenumber                      " Show relative numbers instead of actual
 " Change color on search
-hi Search ctermfg=red ctermbg=black 
+" hi Search ctermfg=red ctermbg=black 
+" highlight Search guibg=guibg guifg=guifg gui=italic,underline,bold
 set foldmethod=manual
