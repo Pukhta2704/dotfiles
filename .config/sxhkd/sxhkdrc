@@ -17,8 +17,8 @@ super + r
 #super + d
 #	dmenu_run
 super + @space
-	$HOME/.config/rofi/launchers/colorful/launcher.sh
-	#rofi -show drun
+	rofi -show drun
+	# $HOME/.config/rofi/launchers/colorful/launcher.sh
 
 # make sxhkd reload its configuration files:
 # super + Escape
