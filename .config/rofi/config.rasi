@@ -1,6 +1,6 @@
 configuration {
 	show-icons: true;
 	terminal: "xfce4-terminal";
-	icon-theme: "Papirus";
+	/* icon-theme: "Papirus"; */
 }
 @theme "/usr/share/rofi/themes/gruvbox-dark-hard.rasi"
