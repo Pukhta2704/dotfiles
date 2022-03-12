@@ -158,5 +158,5 @@ super + x
     $HOME/.scripts/lock
 
 
-#Print
-#    scrot ~/screenshots/%Y-%m-%d-%T-screenshot.png
+Print
+    scrot ~/screenshots/%Y-%m-%d-%T-screenshot.png
