@@ -1,7 +1,6 @@
-/** Basic config file **/
-
 configuration {
-  show-icons:         true;
-  icon-theme:         "Papirus";
+	show-icons: true;
+	terminal: "xfce4-terminal";
+	icon-theme: "Papirus";
 }
-@theme "/usr/share/rofi/themes/gruvbox-dark.rasi"
+@theme "/usr/share/rofi/themes/gruvbox-dark-hard.rasi"
