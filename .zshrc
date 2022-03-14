@@ -120,4 +120,3 @@ echo " "
 pfetch
 # cat ~/.cache/wal/sequences &
 alias upgrade='sudo pacman -Syyu ; yay -Syu'
-alias g='git'
