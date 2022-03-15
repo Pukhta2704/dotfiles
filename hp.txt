@@ -1,4 +1,3 @@
-alsa-utils
 arandr
 autoconf
 automake
@@ -62,6 +61,7 @@ ranger
 ripgrep
 rofi
 scrot
+simplescreenrecorder
 spotify-adblock-git
 sudo
 sxhkd
