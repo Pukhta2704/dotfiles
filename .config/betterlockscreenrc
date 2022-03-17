@@ -15,7 +15,7 @@ wallpaper_cmd="feh --bg-fill"
 # default theme
 loginbox=00000066
 loginshadow=00000000
-locktext="I use Arch, btw."
+# locktext="I use Arch, btw."
 font="sans-serif"
 ringcolor=ffffffff
 insidecolor=00000000
