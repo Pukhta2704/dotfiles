@@ -1,5 +1,5 @@
 if [[ -o login ]] ; then
-    startx
+    # startx
     return
 fi
 # If you come from bash you might have to change your $PATH.
