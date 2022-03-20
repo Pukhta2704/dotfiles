@@ -121,7 +121,6 @@ echo " "
 pfetch
 # cat ~/.cache/wal/sequences &
 alias upgrade='sudo pacman -Syyu ; yay -Syu'
-alias x='startx'
 bindkey -M menuselect 'h' vi-backward-char
 bindkey -M menuselect 'k' vi-up-line-or-history
 bindkey -M menuselect 'l' vi-forward-char
