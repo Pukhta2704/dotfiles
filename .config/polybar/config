@@ -64,7 +64,7 @@ font-6 = FontAwesome:style=Regular:pixelsize=18
 
 modules-left = bspwm 
 modules-center = date
-modules-right = cpu memory wlan battery pulseaudio backlight filesystem powermenu
+modules-right = cpu memory wlan battery pulseaudio backlight filesystem 
 
 separator = |
 tray-position = none
