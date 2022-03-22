@@ -1,5 +1,4 @@
 if [[ -o login ]] ; then
-    alias x='startx'
     # startx
     return
 fi
