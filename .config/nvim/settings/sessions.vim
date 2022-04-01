@@ -12,7 +12,7 @@ let g:startify_bookmarks = [
             \ { 'w': '~/.config/bspwm/bspwmrc' },
             \ { 'e': '~/.config/bspwm/scripts/external_rules.sh' },
             \ { 's': '~/.config/sxhkd/sxhkdrc' },
-            \ { 'p': '~/.config/polybar/config' },
+            \ { 'p': '~/.config/polybar/config.ini' },
             \ ]
 "let g:startify_session_autoload = 1
 "let g:startify_session_delete_buffers = 1
