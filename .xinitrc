@@ -55,7 +55,7 @@ xterm -geometry 80x20+494-0 &
 xterm -geometry 80x66+0+0 -name login &
 # exec wal -R &
 exec xsetroot -cursor_name left_ptr &
-exec setxkbmap -option caps:swapescape &
+# exec setxkbmap -option caps:swapescape &
 #exec picom --experimental &
 exec lxsession &
 #exec glava --desktop &
