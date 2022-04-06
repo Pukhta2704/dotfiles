@@ -1,3 +1,4 @@
+let mapleader = " " " map leader to Space
 " File Browser 
 nmap f; <Cmd>NERDTreeToggle<CR>
 
@@ -30,11 +31,10 @@ autocmd FileType c,vim nmap <C-m> :lua vim.lsp.buf.formatting_sync()<Cr>:w<Cr>:e
 nmap <C-_> gcc<Esc>
 xmap <C-_> gcc<Esc>
 imap <C-_> <Esc>gccA
-
 " Files and Search and Replace
-nmap <C-F> :Files<Cr>
-nmap <C-B> :Buffers<Cr>
-nmap <C-R> :Rg<Cr>
+nmap <leader>f :Files<Cr>
+nmap <leader>b :Buffers<Cr>
+nmap <leader>r :Rg<Cr>
 
 " Better window navigation
 nnoremap <C-h> <C-w>h
