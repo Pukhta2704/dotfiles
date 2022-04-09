@@ -59,6 +59,6 @@ exec setxkbmap -option caps:swapescape &
 #exec picom --experimental &
 exec lxsession &
 #exec glava --desktop &
-# exec xbindkeys &
-# exec buckle &
+#exec xbindkeys &
+#exec buckle &
 exec bspwm 
