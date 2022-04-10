@@ -2,6 +2,7 @@ call plug#begin()
 " Auto Compeletion
 " Plug 'neoclide/coc.nvim', {'branch': 'release'}         
 Plug 'neovim/nvim-lspconfig'
+Plug 'williamboman/nvim-lsp-installer'
 " File Browser
 Plug 'preservim/nerdtree'
 Plug 'dense-analysis/ale'
