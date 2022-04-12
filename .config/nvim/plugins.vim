@@ -11,7 +11,7 @@ Plug 'vim-airline/vim-airline'                          " Airline
 Plug 'vim-airline/vim-airline-themes'
 " syntax 
 Plug 'jiangmiao/auto-pairs'                             " Brackets pairs
-Plug 'sheerun/vim-polyglot'                             " Syntax highlighting
+" Plug 'sheerun/vim-polyglot'                             " Syntax highlighting
 Plug 'lilydjwg/colorizer'                               " Colors hex
 " Files and Search and Replace
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }     " Files and text finder
@@ -34,4 +34,6 @@ Plug 'saadparwaiz1/cmp_luasnip'
 Plug 'onsails/lspkind-nvim'
 Plug 'tpope/vim-fugitive'
 Plug 'vimwiki/vimwiki'
+Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
+Plug 'p00f/nvim-ts-rainbow'
 call plug#end()

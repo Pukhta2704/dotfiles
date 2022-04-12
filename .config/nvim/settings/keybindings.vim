@@ -1,4 +1,6 @@
-let mapleader = " " " map leader to Space
+" map leader to Space
+let mapleader = " " 
+
 " File Browser 
 nmap f; <Cmd>NERDTreeToggle<CR>
 
@@ -10,31 +12,26 @@ nmap <Tab> :bnext<Cr>
 nmap <S-Tab> :bprev<Cr>
 
 " Formatting Code
-" autocmd FileType javascript,typescript,json,css,html,python nmap <C-m> <Esc>:call CocAction('format')<Cr>
 autocmd FileType php,javascript,typescript,json,css,html nmap <C-m> <Esc>:w<Cr>:!prettier % --print-width 80 --trailing-comma none --no-semi true --write<Cr><Cr>:e %<Cr>
-
+" autocmd FileType javascript,typescript,json,css,html,python nmap <C-m> <Esc>:call CocAction('format')<Cr>
 autocmd FileType python nmap <C-m> <Esc>:w<Cr>:!autopep8 --in-place -a -a -a -a --max-line-length 80 % <Cr><Cr>:e %<Cr>zz
-
 autocmd FileType c,vim nmap <C-m> :lua vim.lsp.buf.formatting_sync()<Cr>:w<Cr>:e %<Cr>zz
 
-" autocmd FileType javascript,typescript,json,css,html nmap <C-m> <Esc>:w<Cr>:!prettier % --print-width 80 --trailing-comma none --no-semi true --write<Cr><Cr>:e %<Cr>
-" autocmd FileType python nmap <C-m> <Esc>:w<Cr>:!autopep8 --in-place -a -a -a -a --max-line-length 80 % <Cr><Cr>:e %<Cr>zz
-" autocmd FileType c,vim nmap <C-m> :lua vim.lsp.buf.formatting()<Cr>
-
-" Autocomplete Shortcuts
+" Autocomplete Shortcuts for coc
 " inoremap <silent><expr> <c-space> coc#refresh()
 " inoremap <expr> <cr> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
 " inoremap <expr> <S-Tab> pumvisible() ? "\<C-p>" : "\<S-Tab>"
 " inoremap <expr> <Tab> pumvisible() ? "\<C-n>" : "\<Tab>"
 
 " Comments
-nmap <C-_> gcc<Esc>
+nmap <C-_> Ai<Esc>gccA<Esc>x
 xmap <C-_> gcc<Esc>
-imap <C-_> <Esc>gccA
+imap <C-_> <Esc>Ai<Esc>gcc$xa
+
 " Files and Search and Replace
 nmap <leader>f :Files<Cr>
 nmap <leader>b :Buffers<Cr>
-nmap <leader>r :Rg<Cr>
+nmap <leader>v :Rg<Cr>
 
 " Better window navigation
 nnoremap <C-h> <C-w>h
@@ -53,10 +50,10 @@ nnoremap <C-O>    :bd<Cr>
 
 xmap $ $h
 
+" Bookmarks 
 nmap <C-n> mn
 nmap <C-p> mp
 let g:bookmark_annotation_sign = '⚑'
-
 let g:bookmark_no_default_key_mappings = 1
 function! BookmarkMapKeys()
     nmap mm :BookmarkToggle<CR>
@@ -78,5 +75,4 @@ function! BookmarkUnmapKeys()
 endfunction
 autocmd BufEnter * :call BookmarkMapKeys()
 autocmd BufEnter NERD_tree_* :call BookmarkUnmapKeys()
-
 autocmd FileType javascriptreact,typescriptreact,javascript,typescript,css,html imap  ;; <c-y>,
