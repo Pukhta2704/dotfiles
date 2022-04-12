@@ -9,6 +9,7 @@ source $HOME/.config/nvim/settings/keybindings.vim
 luafile $HOME/.config/nvim/lsp.lua
 luafile $HOME/.config/nvim/treesitter.lua
 
+
 " autocomplete servers
 " sudo npm i -g typescript typescript-language-server pyright vim-language-server vscode-langservers-extracted prettier live-server 
 " sudo pacman -S clang
