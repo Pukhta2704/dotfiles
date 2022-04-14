@@ -8,8 +8,8 @@ nmap f; <Cmd>NERDTreeToggle<CR>
 nmap !! <Cmd>NERDTreeRefreshRoot<CR>        
 
 " Switching Between Buffers
-nmap <Tab> :bnext<Cr>
-nmap <S-Tab> :bprev<Cr>
+" nmap <Tab> :bnext<Cr>
+" nmap <S-Tab> :bprev<Cr>
 nmap <leader>z :b#<Cr>
 
 " Formatting Code
