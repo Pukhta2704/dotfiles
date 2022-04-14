@@ -10,7 +10,8 @@ nmap !! <Cmd>NERDTreeRefreshRoot<CR>
 " Switching Between Buffers
 " nmap <Tab> :bnext<Cr>
 " nmap <S-Tab> :bprev<Cr>
-nmap <leader>z :b#<Cr>
+" nmap <leader>z :b#<Cr>
+nmap <Tab> :b#<Cr>
 
 " Formatting Code
 autocmd FileType php,javascript,typescript,json,css,html nmap <C-m> <Esc>:w<Cr>:!prettier % --print-width 80 --trailing-comma none --no-semi true --write<Cr><Cr>:e %<Cr>
