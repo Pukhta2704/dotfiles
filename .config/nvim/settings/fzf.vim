@@ -48,3 +48,4 @@ let $FZF_DEFAULT_OPTS = '--layout=reverse --info=inline'
 "  \   'git grep --line-number '.shellescape(<q-args>), 0,
 "  \   fzf#vim#with_preview({'dir': systemlist('git rev-parse --show-toplevel')[0]}), <bang>0)
 
+let $FZF_DEFAULT_COMMAND='find . \( -name node_modules -o -name .git \) -prune -o -print'
