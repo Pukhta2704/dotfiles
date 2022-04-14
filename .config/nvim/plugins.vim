@@ -37,4 +37,5 @@ Plug 'vimwiki/vimwiki'
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 Plug 'p00f/nvim-ts-rainbow'
 " Plug 'jose-elias-alvarez/buftabline.nvim',
+" Plug 'vim-scripts/AutoComplPop'
 call plug#end()

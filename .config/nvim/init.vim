@@ -11,6 +11,9 @@ source $HOME/.config/nvim/scripts.vim
 
 function! Omni()
     source $HOME/.config/nvim/lightweightComp.vim
+    call plug#begin()
+    Plug 'vim-scripts/AutoComplPop'
+    call plug#end()
 endfunction
 
 function! Lsp()
