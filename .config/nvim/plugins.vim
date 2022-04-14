@@ -36,5 +36,5 @@ Plug 'tpope/vim-fugitive'
 Plug 'vimwiki/vimwiki'
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 Plug 'p00f/nvim-ts-rainbow'
-" Plug 'jose-elias-alvarez/buftabline.nvim',
+Plug 'jose-elias-alvarez/buftabline.nvim',
 call plug#end()
