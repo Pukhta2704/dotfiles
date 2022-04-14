@@ -19,12 +19,6 @@ autocmd FileType php,javascript,typescript,json,css,html nmap <C-m> <Esc>:w<Cr>:
 autocmd FileType python nmap <C-m> <Esc>:w<Cr>:!autopep8 --in-place -a -a -a -a --max-line-length 80 % <Cr><Cr>:e %<Cr>zz
 autocmd FileType c,vim nmap <C-m> :lua vim.lsp.buf.formatting_sync()<Cr>:w<Cr>:e %<Cr>zz
 
-" Autocomplete Shortcuts for coc
-" inoremap <silent><expr> <c-space> coc#refresh()
-" inoremap <expr> <cr> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
-" inoremap <expr> <S-Tab> pumvisible() ? "\<C-p>" : "\<S-Tab>"
-" inoremap <expr> <Tab> pumvisible() ? "\<C-n>" : "\<Tab>"
-
 " Comments
 nmap <C-_> Ai<Esc>gccA<Esc>x
 xmap <C-_> gcc<Esc>

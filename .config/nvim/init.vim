@@ -6,10 +6,17 @@ source $HOME/.config/nvim/settings/sessions.vim
 source $HOME/.config/nvim/settings/theme.vim
 source $HOME/.config/nvim/settings/general.vim
 source $HOME/.config/nvim/settings/keybindings.vim
-luafile $HOME/.config/nvim/lsp.lua
 luafile $HOME/.config/nvim/treesitter.lua
-source $HOME/.config/nvim/lspkeybindings.vim
 source $HOME/.config/nvim/scripts.vim
+
+function! Omni()
+    source $HOME/.config/nvim/lightweightComp.vim
+endfunction
+
+function! Lsp()
+    luafile $HOME/.config/nvim/lsp.lua
+    source $HOME/.config/nvim/lspkeybindings.vim
+endfunction
 
 " command to search and replace after using Rg
 " cfdo %s/foo/bar/g | :w
