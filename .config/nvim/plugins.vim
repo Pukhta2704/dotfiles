@@ -7,8 +7,8 @@ Plug 'williamboman/nvim-lsp-installer'
 Plug 'preservim/nerdtree'
 Plug 'dense-analysis/ale'
 " Status Line
-Plug 'vim-airline/vim-airline'                          " Airline
-Plug 'vim-airline/vim-airline-themes'
+" Plug 'vim-airline/vim-airline'                          " Airline
+" Plug 'vim-airline/vim-airline-themes'
 " syntax 
 Plug 'jiangmiao/auto-pairs'                             " Brackets pairs
 " Plug 'sheerun/vim-polyglot'                             " Syntax highlighting
@@ -36,4 +36,5 @@ Plug 'tpope/vim-fugitive'
 Plug 'vimwiki/vimwiki'
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 Plug 'p00f/nvim-ts-rainbow'
+" Plug 'jose-elias-alvarez/buftabline.nvim',
 call plug#end()

@@ -10,6 +10,7 @@ nmap !! <Cmd>NERDTreeRefreshRoot<CR>
 " Switching Between Buffers
 nmap <Tab> :bnext<Cr>
 nmap <S-Tab> :bprev<Cr>
+nmap <leader>z :b#<Cr>
 
 " Formatting Code
 autocmd FileType php,javascript,typescript,json,css,html nmap <C-m> <Esc>:w<Cr>:!prettier % --print-width 80 --trailing-comma none --no-semi true --write<Cr><Cr>:e %<Cr>
@@ -30,8 +31,8 @@ imap <C-_> <Esc>Ai<Esc>gcc$xa
 
 " Files and Search and Replace
 nmap <leader>f :Files<Cr>
-nmap <leader>b :Buffers<Cr>
-nmap <leader>v :Rg<Cr>
+nmap <leader>d :Buffers<Cr>
+nmap <leader>s :Rg<Cr>
 
 " Better window navigation
 nnoremap <C-h> <C-w>h
@@ -76,3 +77,6 @@ endfunction
 autocmd BufEnter * :call BookmarkMapKeys()
 autocmd BufEnter NERD_tree_* :call BookmarkUnmapKeys()
 autocmd FileType javascriptreact,typescriptreact,javascript,typescript,css,html imap  ;; <c-y>,
+
+autocmd FileType c,javascriptreact,typescriptreact,javascript,typescript,css,html nmap  zz zf%
+autocmd FileType python nmap  zz zf}

@@ -13,22 +13,38 @@ set smartindent                         " Makes indenting smart
 set autoindent                          " Good auto indent
 set number                              " Line numbers
 set cursorline                          " Enable highlighting of the current line
-set showtabline=4                       " Always show tabs
+set showtabline=2                       " Always show tabs
 set updatetime=300                      " Faster completion
 set timeoutlen=5999                     " By default timeoutlen is 1000 ms
 set guicursor=i:block                   " Block cursor 
 set guicursor+=a:blinkon0               " Disable all blinking:
 set relativenumber                      " Show relative numbers instead of actual
+" let s:hidden_all = 1
+" set noshowmode
+" set noruler
+set laststatus=2
+" set noshowcmd
+
 " Change color on search
 " hi Search ctermfg=red ctermbg=black 
 " highlight Search guibg=guibg guifg=guifg gui=italic,underline,bold
-set foldmethod=manual
+
 autocmd BufWritePost * silent! mkview
 autocmd BufWinEnter * silent! loadview
 autocmd BufWinLeave * silent! mkview
 autocmd CursorMoved,CursorMovedI * call CentreCursor()
+
 function! CentreCursor()
     let pos = getpos(".")
     normal! zz
     call setpos(".", pos)
 endfunction
+
+function! GetBranch()
+    let gitBranch=system("git rev-parse --abbrev-ref HEAD")
+    if stridx(gitBranch,"fatal")
+       execute "set statusline =" . gitBranch
+    endif
+endfunction
+autocmd BufWinEnter * silent! call GetBranch()
+set foldmethod=manual
