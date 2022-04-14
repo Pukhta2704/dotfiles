@@ -9,8 +9,8 @@ source $HOME/.config/nvim/settings/keybindings.vim
 luafile $HOME/.config/nvim/lsp.lua
 luafile $HOME/.config/nvim/treesitter.lua
 source $HOME/.config/nvim/lspkeybindings.vim
+source $HOME/.config/nvim/scripts.vim
 
 " command to search and replace after using Rg
 " cfdo %s/foo/bar/g | :w
-
 

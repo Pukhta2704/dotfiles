@@ -1,4 +1,4 @@
-"let g:fzf_history_dir = '~/.local/share/fzf-history'
+let g:fzf_history_dir = '~/.local/share/fzf-history'
 "" Border color
 let g:fzf_layout = {'up':'~0%', 'window': { 'width': 1.0, 'height': 0.4,'yoffset':1.0,'xoffset': 1.0, 'highlight': 'Todo', 'border': 'sharp' } }
 let $FZF_DEFAULT_OPTS = '--layout=reverse --info=inline'

@@ -47,7 +47,7 @@ nnoremap <M-h>    :vertical resize -2<CR>
 nnoremap <M-l>    :vertical resize +2<CR>
 
 " Quitting
-nnoremap <C-O>    :bd<Cr>
+nnoremap <C-O>    :Bclose<Cr>
 
 xmap $ $h
 

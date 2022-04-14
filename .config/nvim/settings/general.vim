@@ -43,8 +43,12 @@ endfunction
 function! GetBranch()
     let gitBranch=system("git rev-parse --abbrev-ref HEAD")
     if stridx(gitBranch,"fatal")
-       execute "set statusline =" . gitBranch
+       execute " set statusline =" 
+       execute " set statusline =%t------" . gitBranch
+   else
+       execute " set statusline =%t" 
     endif
+    set statusline
 endfunction
 autocmd BufWinEnter * silent! call GetBranch()
 set foldmethod=manual
