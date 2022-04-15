@@ -44,10 +44,10 @@ function! GetBranch()
     let gitBranch=system("git rev-parse --abbrev-ref HEAD")
     if stridx(gitBranch,"fatal")
        execute " set statusline =" 
-       execute " set statusline =%t___(" . gitBranch
+       execute " set statusline =%F-(" . gitBranch
        execute " set statusline +=)"
    else
-       execute " set statusline =%t" 
+       execute " set statusline =%F" 
     endif
 endfunction
 
