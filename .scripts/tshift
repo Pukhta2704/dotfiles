@@ -14,5 +14,5 @@ while [ $a -gt 0 ];
 do
     sudo timeshift --create
     echo 0 | sudo timeshift --delete
+    ((a--))
 done
-
