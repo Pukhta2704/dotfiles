@@ -1,4 +1,18 @@
 #! /usr/bin/bash
-sudo timeshift --create
-#read 
-echo 0 | sudo timeshift --delete
+
+a=$1
+if [ "$#" -lt 1 ]; then
+    a=3
+
+elif [ $a -lt 1  ]
+then
+    a=1
+
+fi
+
+while [ $a -gt 0 ];
+do
+    sudo timeshift --create
+    echo 0 | sudo timeshift --delete
+done
+
