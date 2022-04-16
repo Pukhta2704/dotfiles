@@ -18,7 +18,7 @@ super + r
 #	dmenu_run
 super + @space
 	rofi -show drun
-	# $HOME/.config/rofi/launchers/colorful/launcher.sh
+    #dmenu_run -fn 'Droid Sans Mono-14'
 
 # make sxhkd reload its configuration files:
 # super + Escape
