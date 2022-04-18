@@ -20,9 +20,9 @@ autocmd FileType python nmap <C-m> <Esc>:w<Cr>:!autopep8 --in-place -a -a -a -a 
 autocmd FileType c,vim nmap <C-m> :lua vim.lsp.buf.formatting_sync()<Cr>:w<Cr>:e %<Cr>zz
 
 " Comments
-nmap <C-_> Ai<Esc>gccA<Esc>x
+nmap <C-_> gcc
 xmap <C-_> gcc<Esc>
-imap <C-_> <Esc>Ai<Esc>gcc$xa
+imap <C-_> <Esc>gccA
 
 " Files and Search and Replace
 nmap <leader>f :Files<Cr>
