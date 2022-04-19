@@ -90,5 +90,8 @@ map <leader>6 6gt
 map <leader>7 7gt
 map <leader>8 8gt
 
+map <leader>a :tabnext<cr>
+map <leader>z :tabprevious<cr>
+
 nmap <M-S-l> :tabm +1<cr>
 nmap <M-S-h> :tabm -1<cr>
