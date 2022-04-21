@@ -1,13 +1,11 @@
--- local on_attach=function()
--- end
+local nvim_lsp = require('lspconfig')
 local lsp_installer = require("nvim-lsp-installer")
-local capabilities = vim.lsp.protocol.make_client_capabilities()
-capabilities = require('cmp_nvim_lsp').update_capabilities(capabilities)
+local capabilities = require('cmp_nvim_lsp').update_capabilities(vim.lsp.protocol.make_client_capabilities())
+capabilities.textDocument.completion.completionItem.snippetSupport = true
 
--- Register a handler that will be called for each installed server when it's ready (i.e. when installation is finished
--- or if the server is already installed).
-lsp_installer.on_server_ready(function(server)
+local function on_attach(client, bufnr)
     local opts = { noremap=true, silent=true }
+  -- Set up buffer-local keymaps (vim.api.nvim_buf_set_keymap()), etc.
     vim.api.nvim_set_keymap('n','gD','<cmd>lua vim.lsp.buf.declaration()<CR>',opts) 
     vim.api.nvim_set_keymap('n','gd','<cmd>lua vim.lsp.buf.definition()<CR>',opts) 
     vim.api.nvim_set_keymap('n','<leader>y','<cmd>lua vim.lsp.buf.hover()<CR>',opts) 
@@ -24,15 +22,16 @@ lsp_installer.on_server_ready(function(server)
     vim.api.nvim_set_keymap('n','[d', '<cmd>lua vim.lsp.diagnostic.goto_prev()<CR>',opts) 
     vim.api.nvim_set_keymap('n',']d', '<cmd>lua vim.lsp.diagnostic.goto_next()<CR>',opts) 
     vim.api.nvim_set_keymap('n','<space>q','<cmd>lua vim.lsp.diagnostic.set_loclist()<CR>',opts)  
-    capabilities=capabilities
-    
-    -- (optional) Customize the options passed to the server
-    -- if server.name == "tsserver" then
-    --     opts.root_dir = function() ... end
-    -- end
-
-    -- This setup() function will take the provided server configuration and decorate it with the necessary properties
-    -- before passing it onwards to lspconfig.
-    -- Refer to https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md
-    server:setup(opts)
+end
+lsp_installer.on_server_ready(function(server)
+  local opts = { 
+-- ...
+    capabilities=capabilities,
+    on_attach=on_attach
+-- ...
+  }
+-- ...
+  server:setup(opts)
 end)
+
+

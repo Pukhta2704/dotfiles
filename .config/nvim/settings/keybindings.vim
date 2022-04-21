@@ -75,7 +75,7 @@ autocmd FileType javascriptreact,typescriptreact,javascript,typescript,css,html 
 
 autocmd FileType c,javascriptreact,typescriptreact,javascript,typescript,css,html nmap  zz zf%
 autocmd FileType python nmap  zz zf}
-
+nmap zfd zf%
 inoremap <expr> <cr> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
 inoremap <expr> <S-Tab> pumvisible() ? "<C-p>" : "<S-Tab>"
 inoremap <expr> <Tab> pumvisible() ? "<C-n>" : "<Tab>"
