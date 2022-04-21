@@ -73,9 +73,9 @@ autocmd BufEnter * :call BookmarkMapKeys()
 autocmd BufEnter NERD_tree_* :call BookmarkUnmapKeys()
 autocmd FileType javascriptreact,typescriptreact,javascript,typescript,css,html imap  ;; <c-y>,
 
-autocmd FileType c,javascriptreact,typescriptreact,javascript,typescript,css,html nmap  zz zf%
-autocmd FileType python nmap  zz zf}
-nmap zfd zf%
+autocmd FileType c,javascriptreact,typescriptreact,javascript,typescript,css,html nmap  zfd zf%
+autocmd FileType python nmap  zfd zf}
+
 inoremap <expr> <cr> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
 inoremap <expr> <S-Tab> pumvisible() ? "<C-p>" : "<S-Tab>"
 inoremap <expr> <Tab> pumvisible() ? "<C-n>" : "<Tab>"
