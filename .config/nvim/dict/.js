@@ -1,0 +1,27 @@
+document
+getElementById
+ReactDOM
+render
+const
+if
+else
+else if
+switch
+function
+class
+import 
+module
+exports
+export
+default
+let
+var
+for
+while
+useState
+useReducer
+useDispatch
+redux
+lazy
+Suspense
+onClick

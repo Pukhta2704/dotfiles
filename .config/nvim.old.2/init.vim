@@ -9,13 +9,16 @@ source $HOME/.config/nvim/settings/keybindings.vim
 luafile $HOME/.config/nvim/treesitter.lua
 source $HOME/.config/nvim/scripts.vim
 
-
 function! Omni()
-    luafile $HOME/.config/nvim/lspNormal.lua
+    source $HOME/.config/nvim/lightweightComp.vim
+    call plug#begin()
+    Plug 'vim-scripts/AutoComplPop'
+    call plug#end()
 endfunction
 
 function! Lsp()
-    luafile $HOME/.config/nvim/lspFull.lua
+    luafile $HOME/.config/nvim/lsp.lua
+    source $HOME/.config/nvim/lspkeybindings.vim
 endfunction
 
 " command to search and replace after using Rg

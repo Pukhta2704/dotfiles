@@ -38,8 +38,4 @@ Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 Plug 'p00f/nvim-ts-rainbow'
 " Plug 'jose-elias-alvarez/buftabline.nvim',
 " Plug 'vim-scripts/AutoComplPop'
-Plug 'hrsh7th/cmp-buffer'
-Plug 'hrsh7th/cmp-path'
-Plug 'lukas-reineke/cmp-rg'
-Plug 'uga-rosa/cmp-dictionary' 
 call plug#end()
