@@ -9,7 +9,7 @@ source $HOME/.config/nvim/settings/keybindings.vim
 luafile $HOME/.config/nvim/treesitter.lua
 source $HOME/.config/nvim/scripts.vim
 
-
+let g:vimwiki_list = [{'syntax': 'markdown', 'ext': '.md'}]
 function! Omni()
     luafile $HOME/.config/nvim/lspNormal.lua
 endfunction

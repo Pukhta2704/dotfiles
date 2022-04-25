@@ -1,0 +1,2 @@
+#! /usr/bin/bash
+for i in *.md ; do echo "$i" && pandoc -s $i -o ~/wikihtml/$i.html ; done
