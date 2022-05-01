@@ -2,7 +2,7 @@ colorscheme gruvbox
 
 " Switch to your current theme
 " let g:airline_theme = 'deus'
-let g:airline_theme = 'gruvbox'
+" let g:airline_theme = 'gruvbox'
 
 hi Pmenu ctermbg=black ctermfg=white 
 hi PmenuSel ctermfg=black ctermfg=black
