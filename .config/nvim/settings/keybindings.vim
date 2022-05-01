@@ -30,16 +30,16 @@ nmap <leader>d :Buffers<Cr>
 nmap <leader>s :Rg<Cr>
 
 " Better window navigation
-nnoremap <M-h> <C-w>h
-nnoremap <M-j> <C-w>j
-nnoremap <M-k> <C-w>k
-nnoremap <M-l> <C-w>l
+nnoremap <C-h> <C-w>h
+nnoremap <C-j> <C-w>j
+nnoremap <C-k> <C-w>k
+nnoremap <C-l> <C-w>l
 
 " Use alt + hjkl to resize windows
-nnoremap <C-j>    :resize -2<CR>
-nnoremap <C-k>    :resize +2<CR>
-nnoremap <C-h>    :vertical resize -2<CR>
-nnoremap <C-l>    :vertical resize +2<CR>
+nnoremap <M-j>    :resize -2<CR>
+nnoremap <M-k>    :resize +2<CR>
+nnoremap <M-h>    :vertical resize -2<CR>
+nnoremap <M-l>    :vertical resize +2<CR>
 
 " Quitting
 nnoremap <C-O>    :Bclose<Cr>
@@ -93,5 +93,5 @@ map <leader>8 8gt
 " map <leader>a :tabnext<cr>
 " map <leader>z :tabprevious<cr>
 
-nmap <M-S-l> :tabm +1<cr>
-nmap <M-S-h> :tabm -1<cr>
+nmap <C-S-l> :tabm +1<cr>
+nmap <C-S-h> :tabm -1<cr>

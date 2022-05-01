@@ -43,3 +43,4 @@ Plug 'hrsh7th/cmp-path'
 Plug 'lukas-reineke/cmp-rg'
 Plug 'uga-rosa/cmp-dictionary' 
 call plug#end()
+
