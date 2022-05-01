@@ -42,5 +42,7 @@ Plug 'hrsh7th/cmp-buffer'
 Plug 'hrsh7th/cmp-path'
 Plug 'lukas-reineke/cmp-rg'
 Plug 'uga-rosa/cmp-dictionary' 
+" Plug 'suy/vim-context-commentstring'
+Plug 'maxmellon/vim-jsx-pretty'
 call plug#end()
 

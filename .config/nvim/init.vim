@@ -21,3 +21,4 @@ endfunction
 " command to search and replace after using Rg
 " cfdo %s/foo/bar/g | :w
 
+" autocmd FileType javascriptreact setlocal commentstring={/*%s*/}
