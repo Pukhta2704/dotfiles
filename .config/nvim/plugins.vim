@@ -44,6 +44,10 @@ Plug 'lukas-reineke/cmp-rg'
 Plug 'uga-rosa/cmp-dictionary' 
 " Plug 'suy/vim-context-commentstring'
 Plug 'maxmellon/vim-jsx-pretty'
+Plug 'tzachar/cmp-fuzzy-path'
+Plug 'romgrk/fzy-lua-native'
+Plug 'tzachar/cmp-fuzzy-path'
+Plug'tzachar/fuzzy.nvim'
 call plug#end()
 
 
