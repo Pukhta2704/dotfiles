@@ -45,7 +45,8 @@ Plug 'uga-rosa/cmp-dictionary'
 " Plug 'suy/vim-context-commentstring'
 Plug 'maxmellon/vim-jsx-pretty'
 Plug 'tzachar/cmp-fuzzy-path'
-Plug 'romgrk/fzy-lua-native'
+" Plug 'romgrk/fzy-lua-native'
+Plug 'nvim-telescope/telescope-fzf-native.nvim', { 'do': 'make' }
 Plug 'tzachar/cmp-fuzzy-path'
 Plug'tzachar/fuzzy.nvim'
 call plug#end()
