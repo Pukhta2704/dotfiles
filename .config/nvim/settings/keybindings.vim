@@ -95,3 +95,4 @@ map <leader>8 8gt
 
 nmap <C-S-l> :tabm +1<cr>
 nmap <C-S-h> :tabm -1<cr>
+nmap <leader>r :NERDTreeFind<cr>
