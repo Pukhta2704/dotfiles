@@ -48,7 +48,7 @@ Plug 'tzachar/cmp-fuzzy-path'
 " Plug 'romgrk/fzy-lua-native'
 Plug 'nvim-telescope/telescope-fzf-native.nvim', { 'do': 'make' }
 Plug 'tzachar/cmp-fuzzy-path'
-Plug'tzachar/fuzzy.nvim'
+Plug 'tzachar/fuzzy.nvim'
 call plug#end()
 
 
