@@ -162,4 +162,4 @@ Print
     scrot ~/screenshots/%Y-%m-%d-%T-screenshot.png
 
 super + n
-    redshift {-O 3000,-x}
+    redshift {-x,-O 3000}
