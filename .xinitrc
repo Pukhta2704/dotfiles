@@ -61,5 +61,5 @@ exec lxsession &
 #exec glava --desktop &
 #exec xbindkeys &
 #exec buckle &
-exec redshift -O 3000 &
+exec redshift -O 2500 &
 exec bspwm 
