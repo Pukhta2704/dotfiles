@@ -22,3 +22,8 @@ endfunction
 " cfdo %s/foo/bar/g | :w
 
 " autocmd FileType javascriptreact setlocal commentstring={/*%s*/}
+
+" Bulk renaming
+" :read !ls
+" :%s/.*/mv & &/
+" :w !sh
