@@ -18,6 +18,10 @@ case "$class" in
         echo "desktop=^5 follow=on";;
     ("Klavaro")
         echo "desktop=^4 follow=on state=floating";;
+    ("Sxiv")
+        echo "follow=on";;
+    ("Zathura")
+        echo "follow=on state=tiled";;
     ("")
         unset -v _NET_WM_PID;
         . /dev/fd/0 2>/dev/null <<IN
