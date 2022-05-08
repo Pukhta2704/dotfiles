@@ -122,6 +122,9 @@ echo " "
 pfetch
 # cat ~/.cache/wal/sequences &
 alias upgrade='sudo pacman -Syyu ; yay -Su'
+alias mpv='devour mpv'
+alias zathura='devour zathura'
+alias sxiv='devour sxiv'
 # alias ct='ctags --exclude=.git --exclude=node_modules --exclude=build -R'
 
 bindkey -M menuselect 'h' vi-backward-char
