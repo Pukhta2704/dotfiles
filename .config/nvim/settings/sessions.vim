@@ -10,7 +10,7 @@ let g:startify_bookmarks = [
             \ { 'b': '~/.bashrc' },
             \ { 'x': '~/.xinitrc' },
             \ { 'w': '~/.config/bspwm/bspwmrc' },
-            \ { 'e': '~/.config/bspwm/scripts/external_rules.sh' },
+            \ { 'o': '~/.config/bspwm/scripts/external_rules.sh' },
             \ { 's': '~/.config/sxhkd/sxhkdrc' },
             \ { 'p': '~/.config/polybar/config.ini' },
             \ { 'v': '~/.config/nvim/syntax.wiki' },
