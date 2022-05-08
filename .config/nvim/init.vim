@@ -27,3 +27,8 @@ endfunction
 " :read !ls
 " :%s/.*/mv & &/
 " :w !sh
+
+" Bulk renaming in wikihtml
+" :read !ls
+" :%s/\(.*\)\(\.md.html\)/mv \0 \1/  
+" :w !sh
