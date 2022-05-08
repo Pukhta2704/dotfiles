@@ -1,2 +1,2 @@
 #! /usr/bin/bash
-for i in *.md ; do echo "$i" && pandoc -s $i -o ~/wikihtml/$i.html ; done
+for i in *.md ; do echo "$i" && pandoc -s $i -o ~/wikihtml/$i.html && sed -i 's/\(href=".*\)\("\)/\1\.md\.html\2/g' ~/wikihtml/$i.html ; done
