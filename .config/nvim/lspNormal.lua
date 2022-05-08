@@ -67,14 +67,14 @@ cmp.setup {
 function dict()
     require("cmp_dictionary").setup({
         dic = {
-            -- ["*"] = { "/home/imtiyaz/.config/nvim/dict/python.dic" },
-            ["python"] = "/home/imtiyaz/.config/nvim/dict/.python",
-            -- ["javascript,typescript"] = { "/home/imtiyaz/.config/nvim/dict/python.dic" },
+            -- ["*"] = { "$HOME/.config/nvim/dict/python.dic" },
+            ["python"] = "$HOME/.config/nvim/dict/.python",
+            -- ["javascript,typescript"] = { "$HOME/.config/nvim/dict/python.dic" },
             -- filename = {
-                -- ["xmake.lua"] = { "home/imtiyaz/.config/nvim/dic/python.dic" },
+                -- ["xmake.lua"] = { "$HOME/.config/nvim/dic/python.dic" },
             -- },
             -- filepath = {
-            --     ["%.tmux.*%.conf"] = "/home/imtiyaz/.config/nvim/dict/python.dic"
+            --     ["%.tmux.*%.conf"] = "$HOME/.config/nvim/dict/python.dic"
             -- },
             
         },
