@@ -30,16 +30,16 @@ nmap <leader>d :Buffers<Cr>
 nmap <leader>s :Rg<Cr>
 
 " Better window navigation
-nnoremap <C-h> <C-w>h
-nnoremap <C-j> <C-w>j
-nnoremap <C-k> <C-w>k
-nnoremap <C-l> <C-w>l
+nnoremap <A-h> <C-w>h
+nnoremap <A-j> <C-w>j
+nnoremap <A-k> <C-w>k
+nnoremap <A-l> <C-w>l
 
 " Use alt + hjkl to resize windows
-nnoremap <M-j>    :resize -2<CR>
-nnoremap <M-k>    :resize +2<CR>
-nnoremap <M-h>    :vertical resize -2<CR>
-nnoremap <M-l>    :vertical resize +2<CR>
+nnoremap <C-j>    :resize -2<CR>
+nnoremap <C-k>    :resize +2<CR>
+nnoremap <C-h>    :vertical resize -2<CR>
+nnoremap <C-l>    :vertical resize +2<CR>
 
 " Quitting
 nnoremap <C-O>    :Bclose<Cr>
@@ -93,6 +93,6 @@ map <leader>8 8gt
 " map <leader>a :tabnext<cr>
 " map <leader>z :tabprevious<cr>
 
-nmap <C-S-l> :tabm +1<cr>
-nmap <C-S-h> :tabm -1<cr>
+nmap <A-S-l> :tabm +1<cr>
+nmap <A-S-h> :tabm -1<cr>
 nmap <leader>r :NERDTreeFind<cr>

@@ -56,7 +56,7 @@ cmp.setup {
         { name = 'luasnip' },
         { name = 'buffer' },
         { name = 'path' },
-        { name = 'rg' },
+        -- { name = 'rg' },
         { 
           name = "dictionary",
           keyword_length = 2,
