@@ -1,6 +1,6 @@
 #! /usr/bin/bash
 
-for i in *.md ; do echo "$i" && pandoc -s $i -o ~/wikihtml/$i.html && echo $(perl -pe 's/href="(?!#)(.*)"/href="$1\.md\.html"/g' ~/wikihtml/$i.html) > ~/wikihtml/$i.html; done
+for i in *.md ; do echo "$i" && pandoc -s $i -o ~/wikihtml/$i.html && perl -pi -e 's/href="(?!#)(.*)"/href="$1\.md\.html"/g' ~/wikihtml/$i.html;done
 
 # old way
 
