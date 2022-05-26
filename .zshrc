@@ -121,7 +121,7 @@ bindkey -v
 echo " "
 pfetch
 # cat ~/.cache/wal/sequences &
-alias upgrade='sudo pacman -Syyu --noconfirm; yay -Su --noconfirm;yay -Scc --noconfirm'
+alias upgrade='sudo pacman -Syyu --noconfirm; yay -Su --noconfirm;yay -Scc'
 alias mpv='devour mpv'
 alias zathura='devour zathura'
 alias sxiv='devour sxiv'
