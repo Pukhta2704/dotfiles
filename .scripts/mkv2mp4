@@ -1,0 +1,3 @@
+#! /usr/bin/bash
+
+ffmpeg -i simplescreenrecorder-2022-06-25_18.47.27.mkv -codec copy simplescreenrecorder-2022-06-25_18.47.27.mp4   

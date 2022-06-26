@@ -61,7 +61,7 @@ cmp.setup {
           name = "dictionary",
           keyword_length = 2,
         },
-        { name = 'fuzzy_path' },
+        -- { name = 'fuzzy_path' },
 }
 }
 function dict()

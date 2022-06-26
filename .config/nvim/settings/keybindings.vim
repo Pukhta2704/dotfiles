@@ -14,7 +14,7 @@ nmap !! <Cmd>NERDTreeRefreshRoot<CR>
 nmap <Tab> :b#<Cr>
 
 " Formatting Code
-autocmd FileType php,javascript,typescript,json,css,html nnoremap <leader>e <Esc>:w<Cr>:!prettier % --print-width 80 --trailing-comma none --no-semi true --write<Cr><Cr>:e %<Cr>
+autocmd FileType php,javascript,typescript,json,css,html nnoremap <leader>e <Esc>:w<Cr>:!prettier % --print-width 120 --trailing-comma none --no-semi true --write<Cr><Cr>:e %<Cr>
 " autocmd FileType javascript,typescript,json,css,html,python nmap <leader>e <Esc>:call CocAction('format')<Cr>
 autocmd FileType python nmap <leader>e <Esc>:w<Cr>:!autopep8 --in-place -a -a -a -a --max-line-length 80 % <Cr><Cr>:e %<Cr>zz
 autocmd FileType c,vim nmap <leader>e :lua vim.lsp.buf.formatting_sync()<Cr>:w<Cr>:e %<Cr>zz
@@ -73,8 +73,8 @@ autocmd BufEnter * :call BookmarkMapKeys()
 autocmd BufEnter NERD_tree_* :call BookmarkUnmapKeys()
 autocmd FileType javascriptreact,typescriptreact,javascript,typescript,css,html imap  ;; <c-y>,
 
-autocmd FileType c,javascriptreact,typescriptreact,javascript,typescript,css,html nmap  zz zf%
-autocmd FileType python nmap  zz zf}
+autocmd FileType c,javascriptreact,typescriptreact,javascript,typescript,css,html nmap  zz $zf%
+autocmd FileType python nmap  zfd zf}
 
 inoremap <expr> <cr> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
 inoremap <expr> <S-Tab> pumvisible() ? "<C-p>" : "<S-Tab>"
