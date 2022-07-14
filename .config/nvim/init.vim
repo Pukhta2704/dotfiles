@@ -14,6 +14,8 @@ function! Omni()
     luafile $HOME/.config/nvim/lspNormal.lua
 endfunction
 
+luafile $HOME/.config/nvim/lspNormal.lua
+
 function! Lsp()
     luafile $HOME/.config/nvim/lspFull.lua
 endfunction
