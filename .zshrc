@@ -119,7 +119,8 @@ export PATH=$PATH:$HOME/.local/bin:$HOME/.scripts
 # set -o vi
 bindkey -v 
 echo " "
-pfetch
+# pfetch
+neofetch
 # cat ~/.cache/wal/sequences &
 alias upgrade='sudo pacman -Syyu --noconfirm; yay -Su --noconfirm;yay -Scc'
 alias mpv='devour mpv'
