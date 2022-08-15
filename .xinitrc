@@ -62,5 +62,5 @@ exec lxsession &
 #exec xbindkeys &
 #exec buckle &
 exec redshift -O 2500 &
-exec startxfce4 
-# exec bspwm 
+# exec startxfce4 
+exec bspwm 

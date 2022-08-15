@@ -30,5 +30,6 @@ bspc config top_padding          35
 bspc config focused_border_color "#ffff00"
 bspc config normal_border_color "#ffffff"
 
-
+wmname LG3D
 bspc config external_rules_command ~/.config/bspwm/scripts/external_rules.sh
+
