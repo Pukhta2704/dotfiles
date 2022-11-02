@@ -126,6 +126,7 @@ alias upgrade='sudo pacman -Syyu --noconfirm; yay -Su --noconfirm;yay -Scc'
 alias mpv='devour mpv'
 alias zathura='devour zathura'
 alias sxiv='devour sxiv'
+alias jobs='vi ~/work/jobs/jobs.json'
 # alias ct='ctags --exclude=.git --exclude=node_modules --exclude=build -R'
 
 bindkey -M menuselect 'h' vi-backward-char
