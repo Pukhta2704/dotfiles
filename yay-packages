@@ -7,10 +7,8 @@ google-chrome 107.0.5304.110-1
 gruvbox-material-gtk-theme-git r14.cc255d43-1
 gruvbox-material-icon-theme-git r14.cc255d43-1
 htop-vim 3.2.1-1
-i3lock-color 2.13.c.4-1
 mongodb-bin 6.0.2-2
 mongodb-compass-beta-bin 1.34.0.beta.5-1
-mongosh-bin 1.6.0-1
 ngrok 3.1.0-1
 oh-my-zsh-git r6707.5bce72ef5-1
 pfetch 0.6.0-3

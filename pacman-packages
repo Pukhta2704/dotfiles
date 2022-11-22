@@ -86,6 +86,7 @@ pulseaudio
 pulseaudio-ctl
 pulseaudiocontrol
 python-pip
+qt5-base
 ranger
 redshift
 reflector
