@@ -127,6 +127,11 @@ alias mpv='devour mpv'
 alias zathura='devour zathura'
 alias sxiv='devour sxiv'
 alias jobs='vi ~/work/jobs/jobs.json'
+alias aml="mvn clean install;cd target;sudo docker cp AMLCASES.war camundatest:/camunda/webapps;cd ..;"
+alias alert="mvn clean install;cd target;sudo docker cp ALERT.war camundatest:/camunda/webapps;cd ..;"
+alias blocked="mvn clean install;cd target;sudo docker cp MerchantRiskScore.war camundatest:/camunda/webapps;cd ..;"
+alias logs="sudo docker logs camundatest;"
+
 # alias ct='ctags --exclude=.git --exclude=node_modules --exclude=build -R'
 
 bindkey -M menuselect 'h' vi-backward-char
