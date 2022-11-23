@@ -18,6 +18,7 @@ postman-bin
 pulseaudio-ctl
 pulseaudiocontrol
 stripe-cli-bin
+timeshift-bin
 xinit-xsession
 yay
 zsh-theme-powerlevel10k-bin-git
