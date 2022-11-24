@@ -143,3 +143,8 @@ export ANDROID_SDK_ROOT=$HOME/Android/Sdk
 export PATH=$PATH:$ANDROID_SDK_ROOT/emulator
 export PATH=$PATH:$ANDROID_SDK_ROOT/platform-tools
 export _JAVA_AWT_WM_NONREPARENTING=1
+
+# Default Java environment is already set to 'java-11-openjdk'
+# See 'archlinux-java help' to change it
+# when you use a non-reparenting window manager,
+# set _JAVA_AWT_WM_NONREPARENTING=1 in /etc/profile.d/jre.sh
