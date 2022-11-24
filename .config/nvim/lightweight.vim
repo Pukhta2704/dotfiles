@@ -106,4 +106,4 @@ nnoremap <C-l>    :vertical resize +2<CR>
 nnoremap <C-O>    :Bclose<Cr>
 
 xmap $ $h
-
+let g:fzf_layout = {'up':'~0%', 'window': { 'width': 1.0, 'height': 0.4,'yoffset':0.999,'xoffset': 1.0, 'highlight': 'Todo', 'border': 'sharp' } }
