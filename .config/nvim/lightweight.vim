@@ -34,7 +34,6 @@ inoremap <expr> <S-Tab> pumvisible() ? "\<C-p>" : "\<S-Tab>"
 inoremap <expr> <Tab> pumvisible() ? "\<C-n>" : "\<Tab>"
 inoremap <silent><expr> <CR> coc#pum#visible() ? coc#pum#confirm() : "\<CR>"
 
-set clipboard=unnamedplus               " Copy paste between vim and everything else
 autocmd BufWritePost * silent! mkview
 autocmd BufWinEnter * silent! loadview
 autocmd BufWinLeave * silent! mkview
@@ -56,15 +55,10 @@ function! GetBranch()
 endfunction
 autocmd BufWinEnter * silent! call GetBranch()
 set foldmethod=manual
-set nu                                  " Display numbers
-set number                              " Line numbers
-set relativenumber                      " Show relative numbers instead of actual
 autocmd FileType php,javascript,javascriptreact,typescript,json,css,html nnoremap <leader>e <Esc>:w<Cr>:!prettier % --print-width 120 --trailing-comma none --no-semi true --write<Cr><Cr>:e %<Cr>
 " autocmd FileType javascript,typescript,json,css,html,python nmap <leader>e <Esc>:call CocAction('format')<Cr>
 autocmd FileType python nmap <leader>e <Esc>:w<Cr>:!autopep8 --in-place -a -a -a -a --max-line-length 80 % <Cr><Cr>:e %<Cr>zz
 autocmd FileType c,vim nmap <leader>e :lua vim.lsp.buf.formatting_sync()<Cr>:w<Cr>:e %<Cr>zz
-set guicursor=i:block                   " Block cursor 
-set guicursor+=a:blinkon0               " Disable all blinking:
 
 colorscheme gruvbox
 
