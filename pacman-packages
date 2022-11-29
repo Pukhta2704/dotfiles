@@ -41,6 +41,7 @@ grub
 gruvbox-material-gtk-theme-git
 gruvbox-material-icon-theme-git
 htop-vim
+inkscape
 intel-ucode
 intellij-idea-community-edition
 klavaro
@@ -78,6 +79,7 @@ patch
 pavucontrol
 pfetch
 pgadmin4
+picom
 pkgconf
 polybar
 postgresql
