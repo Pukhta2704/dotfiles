@@ -79,7 +79,6 @@ patch
 pavucontrol
 pfetch
 pgadmin4
-picom
 pkgconf
 polybar
 postgresql
@@ -121,6 +120,7 @@ virtualbox-guest-iso
 virtualbox-guest-utils
 virtualbox-host-modules-arch
 wget
+whatscli
 which
 wmname
 xclip

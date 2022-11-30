@@ -19,6 +19,7 @@ pulseaudio-ctl
 pulseaudiocontrol
 stripe-cli-bin
 timeshift-bin
+whatscli
 xinit-xsession
 yay
 zsh-theme-powerlevel10k-bin-git

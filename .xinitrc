@@ -50,9 +50,9 @@ fi
 
 twm &
 xclock -geometry 50x50-1+1 &
-xterm -geometry 80x50+494+51 &
-xterm -geometry 80x20+494-0 &
-xterm -geometry 80x66+0+0 -name login &
+# xterm -geometry 80x50+494+51 &
+# xterm -geometry 80x20+494-0 &
+# xterm -geometry 80x66+0+0 -name login &
 # exec wal -R &
 exec xsetroot -cursor_name left_ptr &
 exec setxkbmap -option caps:swapescape &
