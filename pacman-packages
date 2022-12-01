@@ -23,7 +23,6 @@ bash-completion
 bc
 binutils
 bison
-blas
 bluez-libs
 boost-libs
 box2d
@@ -42,7 +41,6 @@ ca-certificates-utils
 cairo
 cairomm
 cantarell-fonts
-cblas
 cdparanoia
 clucene
 cmatrix
@@ -79,7 +77,6 @@ e2fsprogs
 efibootmgr
 efivar
 electron19
-enchant
 exo
 expat
 fakeroot
@@ -133,15 +130,12 @@ gpgme
 gpm
 gptfdisk
 graphene
-graphicsmagick
 graphite
 grep
 groff
 grub
 gsettings-desktop-schemas
-gsl
 gsm
-gspell
 gst-plugins-base
 gst-plugins-base-libs
 gstreamer
@@ -367,7 +361,6 @@ icu
 imagemagick
 imlib2
 iniparser
-inkscape
 intel-ucode
 intellij-idea-community-edition
 iproute2
@@ -420,12 +413,10 @@ kwindowsystem
 kxmlgui
 l-smash
 lame
-lapack
 lazygit
 lcms2
 ldns
 less
-lib2geom
 libabw
 libaio
 libarchive
@@ -742,7 +733,6 @@ poppler-glib
 popt
 postgresql
 postgresql-libs
-potrace
 powerline
 powerline-common
 procps-ng
@@ -761,7 +751,6 @@ python-cairo
 python-cffi
 python-click
 python-cryptography
-python-cssselect
 python-dateutil
 python-decorator
 python-dnspython
@@ -793,11 +782,9 @@ python-jaraco.functools
 python-jaraco.text
 python-jinja
 python-ldap3
-python-lxml
 python-mako
 python-markupsafe
 python-more-itertools
-python-numpy
 python-ordered-set
 python-packaging
 python-paramiko
@@ -845,7 +832,6 @@ qt5-tools
 qt5-translations
 qt5-wayland
 qt5-x11extras
-ragel
 ranger
 raptor
 rasqal
