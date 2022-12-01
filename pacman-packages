@@ -32,6 +32,7 @@ brotli
 bspwm
 btop
 btrfs-progs
+bubblewrap
 bucklespring
 bzip2
 c-ares
@@ -77,6 +78,7 @@ e2fsprogs
 efibootmgr
 efivar
 electron19
+enchant
 exo
 expat
 fakeroot
@@ -495,6 +497,7 @@ libldap
 liblqr
 libluv
 liblzf
+libmanette
 libmd
 libmfx
 libmm-glib
@@ -585,6 +588,7 @@ libwacom
 libwebp
 libwnck3
 libwpd
+libwpe
 libwpg
 libwps
 libx11
@@ -923,11 +927,14 @@ vte-common
 vte3
 vulkan-icd-loader
 wayland
+webkit2gtk
 webrtc-audio-processing
 wget
 which
 wmname
+woff2
 wpa_supplicant
+wpebackend-fdo
 x264
 x265
 xapp
@@ -941,6 +948,7 @@ xcb-util-renderutil
 xcb-util-wm
 xcb-util-xrm
 xclip
+xdg-dbus-proxy
 xdg-utils
 xdo
 xf86-input-libinput
