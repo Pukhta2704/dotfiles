@@ -1,5 +1,6 @@
 acl
 adobe-source-code-pro-fonts
+adwaita-cursors
 adwaita-icon-theme
 alsa-lib
 alsa-topology-conf
@@ -61,6 +62,7 @@ dbus
 dbus-glib
 dconf
 debugedit
+default-cursors
 desktop-file-utils
 device-mapper
 diffutils
