@@ -356,6 +356,7 @@ haskell-zip-archive
 haskell-zlib
 hicolor-icon-theme
 hidapi
+http-parser
 hunspell
 hwdata
 hwloc
@@ -472,6 +473,7 @@ libfontenc
 libfreehand
 libgcrypt
 libgee
+libgit2
 libglvnd
 libgnomekbd
 libgpg-error
