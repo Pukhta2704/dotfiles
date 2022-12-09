@@ -1,3 +1,4 @@
+source $HOME/.config/nvim/scripts.vim
 " light weight
 call plug#begin()
 Plug 'neoclide/coc.nvim', {'branch': 'release'}         
