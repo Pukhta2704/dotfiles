@@ -377,6 +377,7 @@ jansson
 java-environment-common
 java-runtime-common
 jdk11-openjdk
+jq
 jre11-openjdk
 jre11-openjdk-headless
 jre17-openjdk
@@ -698,6 +699,7 @@ nss
 ntfs-3g
 numactl
 ocl-icd
+oniguruma
 openal
 opencore-amr
 openjdk11-src
@@ -1030,6 +1032,7 @@ xterm
 xvidcore
 xxhash
 xz
+youtube-dl
 zathura
 zathura-pdf-poppler
 zeromq
