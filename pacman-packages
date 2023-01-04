@@ -58,6 +58,7 @@ curl
 cython
 dav1d
 db
+db5.3
 dbus
 dbus-glib
 dconf
@@ -80,6 +81,7 @@ e2fsprogs
 efibootmgr
 efivar
 electron19
+elementary-icon-theme
 enchant
 exo
 expat
@@ -725,6 +727,7 @@ pavucontrol
 pciutils
 pcre
 pcre2
+pcsclite
 perl
 perl-error
 perl-mailtools
