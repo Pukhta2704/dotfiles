@@ -1,0 +1,11 @@
+#! /usr/bin/bash
+curl --location --request PUT 'http://localhost:8083/engine-rest/process-instance/'$1'/variables/users' \
+     --header 'Content-Type: application/json' \
+     --data-raw '{
+         "type": "Object",
+         "valueInfo" : {
+             "objectTypeName": "java.util.ArrayList",
+             "serializationDataFormat": "application/json"
+         },
+         "value": "[{\"username\": \"madmin\", \"group\": \"riskanalyst\", \"noOfTasksOfThisProcess\": 10 }, {\"username\": \"cadmin\", \"group\": \"riskanalyst\", \"noOfTasksOfThisProcess\": 9 }, {\"username\": \"appul2\", \"group\": \"level2,riskanalyst\", \"noOfTasksOfThisProcess\": 8 } ,{\"username\": \"appul3\", \"group\": \"level3\", \"noOfTasksOfThisProcess\": 7 }]"
+     }'

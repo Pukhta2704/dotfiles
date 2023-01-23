@@ -57,7 +57,6 @@ ctags
 curl
 cython
 dav1d
-db
 db5.3
 dbus
 dbus-glib
@@ -202,6 +201,7 @@ haskell-constraints
 haskell-contravariant
 haskell-cookie
 haskell-cryptonite
+haskell-data-array-byte
 haskell-data-default
 haskell-data-default-class
 haskell-data-default-instances-containers
@@ -294,6 +294,7 @@ haskell-skylighting
 haskell-skylighting-core
 haskell-skylighting-format-ansi
 haskell-skylighting-format-blaze-html
+haskell-skylighting-format-context
 haskell-skylighting-format-latex
 haskell-socks
 haskell-some
@@ -587,7 +588,6 @@ libva
 libvdpau
 libverto
 libvisio
-libvisual
 libvorbis
 libvpx
 libvterm
@@ -771,6 +771,7 @@ python-docopt
 python-editor
 python-email-validator
 python-extras
+python-fastjsonschema
 python-fixtures
 python-flask
 python-flask-babelex
