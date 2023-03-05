@@ -129,6 +129,7 @@ alias sxiv='devour sxiv'
 alias jobs='vi ~/work/jobs/jobs.json'
 alias aml="mvn clean install;cd target;sudo docker cp ybaml.war camundatest:/camunda/webapps;cd ..;"
 alias alert="mvn clean install;cd target;sudo docker cp ALERT.war camundatest:/camunda/webapps;cd ..;"
+alias declined="mvn clean install;cd target;sudo docker cp declinedtransaction.war camundatest:/camunda/webapps;cd ..;"
 alias blocked="mvn clean install;cd target;sudo docker cp ybfrmblocksettlement.war camundatest:/camunda/webapps;cd ..;"
 alias risknot="mvn clean install;cd target;sudo docker cp risknotification.war camundatest:/camunda/webapps;cd ..;"
 alias qc="mvn clean install;cd target;sudo docker cp ybqc.war camundatest:/camunda/webapps;cd ..;"
