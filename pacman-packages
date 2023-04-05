@@ -47,6 +47,7 @@ cairo
 cairomm
 cantarell-fonts
 cdparanoia
+chrpath
 clucene
 cmatrix
 code
@@ -134,8 +135,10 @@ gnome-themes-extra
 gnu-free-fonts
 gnupg
 gnutls
+go
 gobject-introspection-runtime
 gparted
+gperftools
 gpgme
 gpm
 gptfdisk
@@ -146,6 +149,8 @@ groff
 grub
 gsettings-desktop-schemas
 gsm
+gssdp
+gst-plugins-bad-libs
 gst-plugins-base
 gst-plugins-base-libs
 gstreamer
@@ -157,6 +162,8 @@ gtkglext
 gtkmm
 gtkmm3
 guile
+gupnp
+gupnp-igd
 gzip
 harfbuzz
 harfbuzz-icu
@@ -370,6 +377,7 @@ haskell-zip-archive
 haskell-zlib
 hicolor-icon-theme
 hidapi
+highway
 hslua-cli
 http-parser
 hunspell
@@ -379,6 +387,7 @@ hyphen
 iana-etc
 icu
 imagemagick
+imath
 imlib2
 iniparser
 intel-ucode
@@ -455,6 +464,7 @@ libbs2b
 libbsd
 libbytesize
 libcamera
+libcamera-ipa
 libcanberra
 libcap
 libcap-ng
@@ -489,6 +499,7 @@ libfontenc
 libfreehand
 libgcrypt
 libgee
+libgirepository
 libgit2
 libglvnd
 libgnomekbd
@@ -511,6 +522,7 @@ libinput
 libisl
 libixion
 libjpeg-turbo
+libjxl
 libksane
 libksba
 liblangtag
@@ -535,6 +547,7 @@ libnewt
 libnfnetlink
 libnftnl
 libnghttp2
+libnice
 libnl
 libnm
 libnotify
@@ -592,6 +605,8 @@ libtirpc
 libtommath
 libtool
 libtpms
+libtraceevent
+libtracefs
 libunistring
 libunwind
 liburcu
@@ -709,6 +724,7 @@ nitrogen
 node-gyp
 nodejs
 nodejs-nopt
+notepadqq
 npm
 npth
 nspr
@@ -719,6 +735,7 @@ ocl-icd
 oniguruma
 openal
 opencore-amr
+openexr
 openjdk11-src
 openjpeg2
 openmpi
@@ -855,12 +872,16 @@ python-zipp
 qca-qt5
 qt5-base
 qt5-declarative
+qt5-location
 qt5-multimedia
 qt5-speech
 qt5-svg
 qt5-tools
 qt5-translations
 qt5-wayland
+qt5-webchannel
+qt5-webengine
+qt5-websockets
 qt5-x11extras
 ranger
 raptor
@@ -888,7 +909,6 @@ semver
 shaderc
 shadow
 shared-mime-info
-simplescreenrecorder
 slang
 snappy
 solid
@@ -954,6 +974,7 @@ vte-common
 vte3
 vulkan-icd-loader
 wayland
+wayland-protocols
 webkit2gtk
 webrtc-audio-processing
 wget
