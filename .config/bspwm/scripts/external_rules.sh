@@ -11,9 +11,9 @@ case "$class" in
     ("firefox")
         echo "desktop=^2 follow=on";;
     ("Postman")
-        echo "desktop=^3 follow=on";;
+        echo "desktop=^5 follow=on";;
     ("MongoDB Compass")
-        echo "desktop=^3 follow=on";;
+        echo "desktop=^5 follow=on";;
     ("Pystopwatch")
         echo "desktop=^5 follow=on";;
     ("Klavaro")
