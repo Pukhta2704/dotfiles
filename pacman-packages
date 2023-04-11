@@ -1,3 +1,4 @@
+a52dec
 acl
 adobe-source-code-pro-fonts
 adwaita-cursors
@@ -89,9 +90,11 @@ elementary-icon-theme
 enchant
 exo
 expat
+faad2
 fakeroot
 fd
 ffmpeg
+ffmpeg4.4
 fftw
 file
 filesystem
@@ -479,11 +482,14 @@ libdatrie
 libdbusmenu-glib
 libdbusmenu-gtk3
 libdbusmenu-qt5
+libdca
 libde265
 libdrm
+libdvbpsi
 libdvdnav
 libdvdread
 libe-book
+libebml
 libedit
 libelf
 libepoxy
@@ -512,6 +518,7 @@ libhandy
 libheif
 libical
 libice
+libidn
 libidn2
 libiec61883
 libieee1284
@@ -530,14 +537,18 @@ libldap
 liblqr
 libluv
 liblzf
+libmad
 libmanette
+libmatroska
 libmd
 libmfx
 libmm-glib
 libmnl
 libmodplug
 libmpc
+libmpcdec
 libmpdclient
+libmpeg2
 libmspub
 libmwaw
 libndp
@@ -595,6 +606,7 @@ libstaroffice
 libstemmer
 libsynctex
 libsysprof-capture
+libtar
 libtasn1
 libteam
 libtermkey
@@ -609,6 +621,7 @@ libtraceevent
 libtracefs
 libunistring
 libunwind
+libupnp
 liburcu
 libusb
 libusbmuxd
@@ -683,6 +696,7 @@ lpsolve
 lsb-release
 lua
 lua-lpeg
+lua52
 luajit
 luit
 lvm2
@@ -928,6 +942,7 @@ sysfsutils
 systemd
 systemd-libs
 systemd-sysvcompat
+taglib
 tar
 tcl
 tdb
@@ -968,6 +983,7 @@ virtualbox
 virtualbox-guest-iso
 virtualbox-guest-utils
 virtualbox-host-modules-arch
+vlc
 vmaf
 volume_key
 vte-common

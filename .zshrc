@@ -132,6 +132,9 @@ alias alert="mvn clean install;cd target;sudo docker cp ALERT.war camundatest:/c
 alias declined="mvn clean install;cd target;sudo docker cp declinedtransaction.war camundatest:/camunda/webapps;cd ..;"
 alias blocked="mvn clean install;cd target;sudo docker cp ybfrmblocksettlement.war camundatest:/camunda/webapps;cd ..;"
 alias risknot="mvn clean install;cd target;sudo docker cp risknotification.war camundatest:/camunda/webapps;cd ..;"
+alias cub="mvn clean install;cd target;sudo docker cp cubrisknotification.war camundatest:/camunda/webapps;cd ..;"
+alias usfb="mvn clean install;cd target;sudo docker cp usfbrisknotification.war camundatest:/camunda/webapps;cd ..;"
+
 alias qc="mvn clean install;cd target;sudo docker cp ybqc.war camundatest:/camunda/webapps;cd ..;"
 alias logs="sudo docker logs camundatest;"
 
