@@ -821,6 +821,7 @@ python-extras
 python-fastjsonschema
 python-fixtures
 python-flask
+python-flask-babel
 python-flask-babelex
 python-flask-compress
 python-flask-gravatar
