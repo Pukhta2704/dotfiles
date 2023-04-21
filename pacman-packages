@@ -48,7 +48,6 @@ cairo
 cairomm
 cantarell-fonts
 cdparanoia
-chrpath
 clucene
 cmatrix
 code
@@ -60,7 +59,6 @@ cronie
 cryptsetup
 ctags
 curl
-cython
 dav1d
 db5.3
 dbus
@@ -103,6 +101,7 @@ firefox
 fish
 flac
 flex
+fluidsynth
 fontconfig
 freetype2
 fribidi
@@ -138,7 +137,6 @@ gnome-themes-extra
 gnu-free-fonts
 gnupg
 gnutls
-go
 gobject-introspection-runtime
 gparted
 gperftools
@@ -526,6 +524,7 @@ libimagequant
 libimobiledevice
 libinih
 libinput
+libinstpatch
 libisl
 libixion
 libjpeg-turbo
@@ -817,7 +816,6 @@ python-dnspython
 python-docopt
 python-editor
 python-email-validator
-python-extras
 python-fastjsonschema
 python-fixtures
 python-flask
