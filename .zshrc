@@ -127,16 +127,21 @@ alias mpv='devour mpv'
 alias zathura='devour zathura'
 alias sxiv='devour sxiv'
 alias jobs='vi ~/work/jobs/jobs.json'
-alias aml="mvn clean install;cd target;sudo docker cp ybaml.war camundatest:/camunda/webapps;cd ..;"
-alias alert="mvn clean install;cd target;sudo docker cp ALERT.war camundatest:/camunda/webapps;cd ..;"
-alias declined="mvn clean install;cd target;sudo docker cp declinedtransaction.war camundatest:/camunda/webapps;cd ..;"
-alias blocked="mvn clean install;cd target;sudo docker cp ybfrmblocksettlement.war camundatest:/camunda/webapps;cd ..;"
-alias risknot="mvn clean install;cd target;sudo docker cp risknotification.war camundatest:/camunda/webapps;cd ..;"
-alias cub="mvn clean install;cd target;sudo docker cp cubrisknotification.war camundatest:/camunda/webapps;cd ..;"
-alias usfb="mvn clean install;cd target;sudo docker cp usfbrisknotification.war camundatest:/camunda/webapps;cd ..;"
+alias aml="mvn clean install;cd target;sudo docker cp ybaml.war camundapsqldit2:/camunda/webapps;cd ..;"
+alias alert="mvn clean install;cd target;sudo docker cp ALERT.war camundapsqldit2:/camunda/webapps;cd ..;"
+alias declined="mvn clean install;cd target;sudo docker cp declinedtransaction.war camundapsqldit2:/camunda/webapps;cd ..;"
+alias blocked="mvn clean install;cd target;sudo docker cp ybfrmblocksettlement.war camundapsqldit2:/camunda/webapps;cd ..;"
+alias risknot="mvn clean install;cd target;sudo docker cp risknotification.war camundapsqldit2:/camunda/webapps;cd ..;"
+alias cub="mvn clean install;cd target;sudo docker cp cubrisknotification.war camundapsqldit2:/camunda/webapps;cd ..;"
+alias usfb="mvn clean install;cd target;sudo docker cp usfbrisknotification.war camundapsqldit2:/camunda/webapps;cd ..;"
+# alias sanctions="mvn clean install;cd target;sudo docker cp sanctions.war camundapsqldit2:/camunda/webapps;cd ..;"
+alias sanctions="mvn clean install;cd target;sudo docker cp sanctions.war camundapsqldit2:/camunda/webapps;cd ..;"
+alias camunda="sudo docker stop camundapsqldit2;sudo docker-compose up -d"
 
-alias qc="mvn clean install;cd target;sudo docker cp ybqc.war camundatest:/camunda/webapps;cd ..;"
-alias logs="sudo docker logs camundatest;"
+
+alias qc="mvn clean install;cd target;sudo docker cp ybqc.war camundapsqldit2:/camunda/webapps;cd ..;"
+alias logs="sudo docker logs camundapsqldit2;"
+# alias logs2="sudo docker logs camundapsqldit2;"
 
 # alias ct='ctags --exclude=.git --exclude=node_modules --exclude=build -R'
 
@@ -154,3 +159,5 @@ export _JAVA_AWT_WM_NONREPARENTING=1
 # See 'archlinux-java help' to change it
 # when you use a non-reparenting window manager,
 # set _JAVA_AWT_WM_NONREPARENTING=1 in /etc/profile.d/jre.sh
+#
+# sudo docker build -t uiserver:latest .
