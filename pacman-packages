@@ -880,7 +880,6 @@ python-webencodings
 python-werkzeug
 python-wheel
 python-wtforms
-python-xlib
 python-zipp
 qca-qt5
 qt5-base
