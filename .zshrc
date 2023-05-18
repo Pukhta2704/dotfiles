@@ -127,7 +127,8 @@ alias mpv='devour mpv'
 alias zathura='devour zathura'
 alias sxiv='devour sxiv'
 alias jobs='vi ~/work/jobs/jobs.json'
-alias aml="mvn clean install;cd target;sudo docker cp ybaml.war camundapsqldit2:/camunda/webapps;cd ..;"
+# alias aml="mvn clean install;cd target;sudo docker cp ybaml.war camundapsqldit2:/camunda/webapps;cd ..;"
+alias aml="mvn clean install;cd target;sudo docker cp ybaml.war camundatest:/camunda/webapps;cd ..;"
 alias alert="mvn clean install;cd target;sudo docker cp ALERT.war camundapsqldit2:/camunda/webapps;cd ..;"
 alias declined="mvn clean install;cd target;sudo docker cp declinedtransaction.war camundapsqldit2:/camunda/webapps;cd ..;"
 alias blocked="mvn clean install;cd target;sudo docker cp ybfrmblocksettlement.war camundapsqldit2:/camunda/webapps;cd ..;"
@@ -160,4 +161,6 @@ export _JAVA_AWT_WM_NONREPARENTING=1
 # when you use a non-reparenting window manager,
 # set _JAVA_AWT_WM_NONREPARENTING=1 in /etc/profile.d/jre.sh
 #
-# sudo docker build -t uiserver:latest .
+# mvn clean install;sudo docker build -t uiserver:latest .
+#
+# sudo docker cp bpm-platform.xml camundapsqldit2:/camunda/conf

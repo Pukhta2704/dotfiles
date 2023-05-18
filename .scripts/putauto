@@ -1,5 +1,5 @@
 #! /usr/bin/bash
-curl --location --request PUT 'http://localhost:8083/engine-rest/process-instance/'$1'/variables/users' \
+curl --location --request PUT 'http://localhost:7031/engine-rest/process-instance/'$1'/variables/users' \
      --header 'Content-Type: application/json' \
      --data-raw '{
          "type": "Object",
