@@ -54,7 +54,6 @@ code
 colord
 containerd
 coreutils
-cracklib
 cronie
 cryptsetup
 ctags
@@ -117,7 +116,6 @@ gcc-libs
 gd
 gdbm
 gdk-pixbuf2
-geoclue
 gettext
 ghc-libs
 giflib
@@ -132,12 +130,10 @@ glslang
 glu
 gmp
 gnome-bluetooth
-gnome-disk-utility
 gnome-themes-extra
 gnu-free-fonts
 gnupg
 gnutls
-go
 gobject-introspection-runtime
 gparted
 gperftools
@@ -463,8 +459,6 @@ libbpf
 libbs2b
 libbsd
 libbytesize
-libcamera
-libcamera-ipa
 libcanberra
 libcap
 libcap-ng
@@ -511,7 +505,6 @@ libgphoto2
 libgtop
 libgudev
 libgusb
-libhandy
 libheif
 libical
 libice
@@ -580,7 +573,6 @@ libpng
 libproxy
 libpsl
 libpulse
-libpwquality
 libqxp
 libraqm
 libraw1394
@@ -778,7 +770,6 @@ perl-mailtools
 perl-timedate
 pgadmin4
 pinentry
-pipewire
 pixman
 pkgconf
 polkit
