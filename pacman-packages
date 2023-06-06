@@ -19,6 +19,7 @@ attr
 audit
 autoconf
 automake
+autopep8
 avahi
 base
 bash
@@ -848,6 +849,7 @@ python-powerline
 python-psutil
 python-psycopg2
 python-pyasn1
+python-pycodestyle
 python-pycparser
 python-pydantic
 python-pyfiglet

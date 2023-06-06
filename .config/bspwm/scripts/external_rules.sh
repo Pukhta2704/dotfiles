@@ -10,6 +10,8 @@ case "$class" in
 	;;
     ("firefox")
         echo "desktop=^2 follow=on";;
+    ("Google-chrome")
+        echo "desktop=^2 follow=on";;
     ("Postman")
         echo "desktop=^5 follow=on";;
     ("MongoDB Compass")
