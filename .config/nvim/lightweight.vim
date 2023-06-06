@@ -59,7 +59,7 @@ set foldmethod=manual
 autocmd FileType php,javascript,javascriptreact,typescript,json,css,html nnoremap <leader>e <Esc>:w<Cr>:!prettier % --print-width 120 --trailing-comma none --no-semi true --write<Cr><Cr>:e %<Cr>
 " autocmd FileType javascript,typescript,json,css,html,python nmap <leader>e <Esc>:call CocAction('format')<Cr>
 autocmd FileType python nmap <leader>e <Esc>:w<Cr>:!autopep8 --in-place -a -a -a -a --max-line-length 80 % <Cr><Cr>:e %<Cr>zz
-autocmd FileType c nmap <leader>e <Esc>:w<Cr>:!clang-format -i % <Cr><Cr>:e %<Cr>
+autocmd FileType c,cpp,java nmap <leader>e <Esc>:w<Cr>:!clang-format -i % <Cr><Cr>:e %<Cr>
 " autocmd FileType c,vim nmap <leader>e :lua vim.lsp.buf.formatting_sync()<Cr>:w<Cr>:e %<Cr>zz
 
 colorscheme gruvbox
