@@ -49,10 +49,12 @@ cairo
 cairomm
 cantarell-fonts
 cdparanoia
+clang
 clucene
 cmatrix
 code
 colord
+compiler-rt
 containerd
 coreutils
 cronie

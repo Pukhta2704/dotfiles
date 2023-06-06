@@ -4,6 +4,6 @@ gcc $1
 ./a.out
 #echo "Press any key to clear"
 echo ""
-read 
+# read 
 rm ./a.out
-clear
+# clear
