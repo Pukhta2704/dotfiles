@@ -7,6 +7,10 @@ eclipse-java
 google-chrome
 gruvbox-material-gtk-theme-git
 gruvbox-material-icon-theme-git
+haskell-connection
+haskell-x509-store
+haskell-x509-system
+haskell-x509-validation
 htop-vim
 i3lock-color
 microsoft-edge-stable-bin
