@@ -63,6 +63,7 @@ cryptsetup
 ctags
 curl
 dav1d
+db
 db5.3
 dbus
 dbus-glib

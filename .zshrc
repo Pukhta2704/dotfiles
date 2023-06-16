@@ -137,7 +137,7 @@ alias cub="mvn clean install;cd target;sudo docker cp cubrisknotification.war ca
 alias usfb="mvn clean install;cd target;sudo docker cp usfbrisknotification.war camundapsqldit2:/camunda/webapps;cd ..;"
 # alias sanctions="mvn clean install;cd target;sudo docker cp sanctions.war camundapsqldit2:/camunda/webapps;cd ..;"
 alias sanctions="mvn clean install;cd target;sudo docker cp sanctions.war camundapsqldit2:/camunda/webapps;cd ..;"
-alias camunda="sudo docker stop camundapsqldit2;sudo docker-compose up -d"
+alias camunda="sudo docker stop camundapsqldit2;cd ~/work/drona/apps/camunda2/ ;sudo docker-compose up -d"
 
 
 alias qc="mvn clean install;cd target;sudo docker cp ybqc.war camundapsqldit2:/camunda/webapps;cd ..;"
