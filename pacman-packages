@@ -75,7 +75,6 @@ device-mapper
 diffutils
 dmenu
 dmidecode
-dmraid
 dnssec-anchors
 docker
 docker-buildx
@@ -87,9 +86,7 @@ dumb
 e2fsprogs
 efibootmgr
 efivar
-electron
 electron22
-electron25
 elementary-icon-theme
 enchant
 exo
@@ -200,7 +197,6 @@ haskell-blaze-html
 haskell-blaze-markup
 haskell-boring
 haskell-bsb-http-chunked
-haskell-byteable
 haskell-byteorder
 haskell-call-stack
 haskell-case-insensitive
@@ -378,7 +374,6 @@ haskell-wai-logger
 haskell-warp
 haskell-witherable
 haskell-word8
-haskell-x509
 haskell-xml
 haskell-xml-conduit
 haskell-xml-types
@@ -389,7 +384,6 @@ hicolor-icon-theme
 hidapi
 highway
 hslua-cli
-http-parser
 hunspell
 hwdata
 hwloc
@@ -509,7 +503,6 @@ libfreehand
 libgcrypt
 libgee
 libgirepository
-libgit2
 libglvnd
 libgnomekbd
 libgpg-error
@@ -939,7 +932,6 @@ sudo
 svt-av1
 sxhkd
 sxiv
-sysfsutils
 systemd
 systemd-libs
 systemd-sysvcompat
