@@ -39,7 +39,6 @@ brotli
 bspwm
 btop
 btrfs-progs
-bubblewrap
 bucklespring
 bzip2
 c-ares
@@ -88,7 +87,6 @@ efibootmgr
 efivar
 electron22
 elementary-icon-theme
-enchant
 exo
 expat
 faad2
@@ -122,6 +120,7 @@ gdbm
 gdk-pixbuf2
 gettext
 ghc-libs
+ghostscript
 giflib
 girara
 git
@@ -146,13 +145,13 @@ gpm
 gptfdisk
 graphene
 graphite
+graphviz
 grep
 groff
 grub
 gsettings-desktop-schemas
+gsfonts
 gsm
-gssdp
-gst-plugins-bad-libs
 gst-plugins-base
 gst-plugins-base-libs
 gstreamer
@@ -163,9 +162,8 @@ gtkdatabox
 gtkglext
 gtkmm
 gtkmm3
+gts
 guile
-gupnp
-gupnp-igd
 gzip
 harfbuzz
 harfbuzz-icu
@@ -390,12 +388,12 @@ hwloc
 hyphen
 iana-etc
 icu
+ijs
 imagemagick
 imath
 imlib2
 iniparser
 intel-ucode
-intellij-idea-community-edition
 iproute2
 iptables
 iputils
@@ -404,10 +402,8 @@ jack2
 jansson
 java-environment-common
 java-runtime-common
-jdk17-openjdk
+jbig2dec
 jq
-jre17-openjdk
-jre17-openjdk-headless
 json-c
 json-glib
 jsoncpp
@@ -534,7 +530,6 @@ liblqr
 libluv
 liblzf
 libmad
-libmanette
 libmatroska
 libmd
 libmfx
@@ -548,13 +543,11 @@ libmpeg2
 libmspub
 libmwaw
 libndp
-libnet
 libnetfilter_conntrack
 libnewt
 libnfnetlink
 libnftnl
 libnghttp2
-libnice
 libnl
 libnm
 libnotify
@@ -567,6 +560,7 @@ libopenmpt
 liborcus
 libp11-kit
 libpagemaker
+libpaper
 libpcap
 libpciaccess
 libpgm
@@ -633,7 +627,6 @@ libwacom
 libwebp
 libwnck3
 libwpd
-libwpe
 libwpg
 libwps
 libx11
@@ -727,6 +720,7 @@ neofetch
 neon
 neovim
 net-snmp
+netpbm
 nettle
 networkmanager
 nitrogen
@@ -745,7 +739,6 @@ oniguruma
 openal
 opencore-amr
 openexr
-openjdk17-src
 openjpeg2
 openmpi
 openpmix
@@ -782,6 +775,7 @@ polkit-gnome
 polkit-qt5
 polybar
 poppler
+poppler-data
 poppler-glib
 popt
 portaudio
@@ -983,15 +977,12 @@ vte-common
 vte3
 vulkan-icd-loader
 wayland
-wayland-protocols
-webkit2gtk
 webrtc-audio-processing
 wget
 which
 wmname
 woff2
 wpa_supplicant
-wpebackend-fdo
 x264
 x265
 xapp
@@ -1005,7 +996,6 @@ xcb-util-renderutil
 xcb-util-wm
 xcb-util-xrm
 xclip
-xdg-dbus-proxy
 xdg-utils
 xdo
 xf86-input-libinput
