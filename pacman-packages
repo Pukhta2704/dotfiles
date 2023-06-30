@@ -850,7 +850,6 @@ python-pyasn1
 python-pycodestyle
 python-pycparser
 python-pydantic
-python-pyfiglet
 python-pynacl
 python-pytz
 python-setuptools
@@ -933,7 +932,6 @@ taglib
 tar
 tcl
 tdb
-termdown
 texinfo
 thin-provisioning-tools
 thunar
