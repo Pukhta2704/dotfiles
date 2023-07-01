@@ -1,6 +1,7 @@
 #! /usr/bin/bash
 
-gcc $1
+# gcc $1
+gcc $1 -o a.out -lm
 ./a.out
 #echo "Press any key to clear"
 echo ""
