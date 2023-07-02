@@ -33,7 +33,7 @@ highlight SignColumn ctermbg=235
 inoremap <silent><expr> <c-space> coc#refresh()
 inoremap <expr> <S-Tab> pumvisible() ? "\<C-p>" : "\<S-Tab>"
 inoremap <expr> <Tab> pumvisible() ? "\<C-n>" : "\<Tab>"
-inoremap <silent><expr> <CR> coc#pum#visible() ? coc#pum#confirm() : "\<CR>"
+inoremap <silent><expr> <CR> coc#pum#visible() ? coc#pum#confirm() : "\\<CR>"
 
 autocmd BufWritePost * silent! mkview
 autocmd BufWinEnter * silent! loadview
