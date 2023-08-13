@@ -138,6 +138,7 @@ gnome-themes-extra
 gnu-free-fonts
 gnupg
 gnutls
+go
 gobject-introspection-runtime
 gparted
 gperftools
@@ -395,6 +396,7 @@ imath
 imlib2
 iniparser
 intel-ucode
+intellij-idea-community-edition
 iproute2
 iptables
 iputils
@@ -405,6 +407,8 @@ java-environment-common
 java-runtime-common
 jbig2dec
 jq
+jre17-openjdk
+jre17-openjdk-headless
 json-c
 json-glib
 jsoncpp
@@ -544,6 +548,7 @@ libmpeg2
 libmspub
 libmwaw
 libndp
+libnet
 libnetfilter_conntrack
 libnewt
 libnfnetlink
