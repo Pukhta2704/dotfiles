@@ -1,4 +1,5 @@
 a52dec
+abseil-cpp
 acl
 adobe-source-code-pro-fonts
 adwaita-cursors
@@ -351,6 +352,7 @@ haskell-transformers-base
 haskell-transformers-compat
 haskell-type-equality
 haskell-typed-process
+haskell-typst-symbols
 haskell-unicode-collation
 haskell-unicode-data
 haskell-unicode-transforms
