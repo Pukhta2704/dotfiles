@@ -81,4 +81,12 @@ function dict()
         -- The following are default values, so you don't need to write them if you don't want to change them
     })
 end
-
+vim.lsp.handlers["textDocument/publishDiagnostics"] = vim.lsp.with(
+    vim.lsp.diagnostic.on_publish_diagnostics,
+    {
+      virtual_text = false,
+      signs = true,
+      update_in_insert = false,
+      underline = true,
+    }
+  )

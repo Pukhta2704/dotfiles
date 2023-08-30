@@ -22,6 +22,9 @@ local function on_attach(client, bufnr)
     vim.api.nvim_set_keymap('n','[d', '<cmd>lua vim.lsp.diagnostic.goto_prev()<CR>',opts) 
     vim.api.nvim_set_keymap('n',']d', '<cmd>lua vim.lsp.diagnostic.goto_next()<CR>',opts) 
     vim.api.nvim_set_keymap('n','<space>q','<cmd>lua vim.lsp.diagnostic.set_loclist()<CR>',opts)  
+
+vim.api.nvim_set_keymap('n', '<space>i', '<cmd>lua vim.diagnostic.open_float()<CR>', opts)
+
 end
 lsp_installer.on_server_ready(function(server)
   local opts = { 
