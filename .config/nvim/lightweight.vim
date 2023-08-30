@@ -1,7 +1,7 @@
 source $HOME/.config/nvim/scripts.vim
 " light weight
 call plug#begin()
-Plug 'neoclide/coc.nvim', {'branch': 'release'}         
+" Plug 'neoclide/coc.nvim', {'branch': 'release'}         
 Plug 'preservim/nerdtree'
 Plug 'jiangmiao/auto-pairs'                             " Brackets pairs
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }     " Files and text finder
@@ -10,6 +10,20 @@ Plug 'morhetz/gruvbox'
 Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-surround'
 Plug 'mattn/emmet-vim'
+Plug 'neovim/nvim-lspconfig'
+Plug 'williamboman/nvim-lsp-installer'
+Plug 'hrsh7th/nvim-cmp'
+Plug 'hrsh7th/cmp-nvim-lsp'
+Plug 'L3MON4D3/LuaSnip'
+Plug 'saadparwaiz1/cmp_luasnip'
+Plug 'onsails/lspkind-nvim'
+Plug 'hrsh7th/cmp-buffer'
+Plug 'hrsh7th/cmp-path'
+Plug 'lukas-reineke/cmp-rg'
+Plug 'uga-rosa/cmp-dictionary' 
+Plug 'tzachar/fuzzy.nvim'
+Plug 'tzachar/cmp-fuzzy-path'
+Plug 'nvim-telescope/telescope-fzf-native.nvim', { 'do': 'make' }
 call plug#end()
 let mapleader = " " 
 nmap <leader>f :Files<Cr>
@@ -30,11 +44,11 @@ hi PmenuSel ctermfg=black ctermfg=black
 highlight LineNr ctermfg=white 
 highlight BookmarkAnnotationSign ctermfg=red
 highlight SignColumn ctermbg=235
-inoremap <silent><expr> <c-space> coc#refresh()
+" inoremap <silent><expr> <c-space> coc#refresh()
 inoremap <expr> <S-Tab> pumvisible() ? "\<C-p>" : "\<S-Tab>"
 inoremap <expr> <Tab> pumvisible() ? "\<C-n>" : "\<Tab>"
-inoremap <silent><expr> <CR> coc#pum#visible() ? coc#pum#confirm() : "<CR>"
-autocmd FileType javascriptreact,typescriptreact,javascript,typescript,css,html inoremap <silent><expr> <CR> coc#pum#visible() ? coc#pum#confirm() : "\<CR>"
+" inoremap <silent><expr> <CR> coc#pum#visible() ? coc#pum#confirm() : "<CR>"
+" autocmd FileType javascriptreact,typescriptreact,javascript,typescript,css,html inoremap <silent><expr> <CR> coc#pum#visible() ? coc#pum#confirm() : "\<CR>"
 
 autocmd BufWritePost * silent! mkview
 autocmd BufWinEnter * silent! loadview
@@ -135,3 +149,12 @@ set laststatus=2
 " Change color on search
 " hi Search ctermfg=red ctermbg=black 
 " highlight Search guibg=guibg guifg=guifg gui=italic,underline,bold
+"
+
+luafile $HOME/.config/nvim/lspNormal.lua
+luafile $HOME/.config/nvim/lspFull.lua
+
+" inoremap <expr> <cr> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
+" inoremap <expr> <S-Tab> pumvisible() ? "<C-p>" : "<S-Tab>"
+" inoremap <expr> <Tab> pumvisible() ? "<C-n>" : "<Tab>"
+" inoremap <c-space> <c-n>
