@@ -408,6 +408,7 @@ jansson
 java-environment-common
 java-runtime-common
 jbig2dec
+jbigkit
 jq
 jre17-openjdk
 jre17-openjdk-headless
@@ -484,6 +485,7 @@ libdbusmenu-gtk3
 libdbusmenu-qt5
 libdca
 libde265
+libdeflate
 libdrm
 libdvbpsi
 libdvdnav
@@ -686,6 +688,7 @@ linux-api-headers
 linux-firmware
 linux-firmware-whence
 llvm-libs
+llvm15-libs
 lm_sensors
 love
 lpsolve
@@ -774,7 +777,6 @@ perl
 perl-error
 perl-mailtools
 perl-timedate
-pgadmin4
 pinentry
 pixman
 pkgconf
@@ -1079,7 +1081,6 @@ xterm
 xvidcore
 xxhash
 xz
-youtube-dl
 zathura
 zathura-pdf-poppler
 zeromq

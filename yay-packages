@@ -16,6 +16,7 @@ mongosh-bin
 ngrok
 oh-my-zsh-git
 pfetch
+pgadmin4
 postman-bin
 pulseaudio-ctl
 pulseaudiocontrol
@@ -25,5 +26,6 @@ timeshift-bin
 whatscli
 xinit-xsession
 yay
+youtube-dl
 ytfzf-git
 zsh-theme-powerlevel10k-bin-git

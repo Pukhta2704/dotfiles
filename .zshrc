@@ -142,6 +142,8 @@ alias camunda="sudo docker stop camundapsqldit2;cd ~/work/drona/apps/camunda2/ ;
 
 alias qc="mvn clean install;cd target;sudo docker cp ybqc.war camundapsqldit2:/camunda/webapps;cd ..;"
 alias logs="sudo docker logs camundapsqldit2;"
+alias riskymerchant="mvn clean install;cd target;sudo docker cp riskymerchantsettlement.war camundapsqldit2:/camunda/webapps;cd .."
+
 # alias logs2="sudo docker logs camundapsqldit2;"
 
 # alias ct='ctags --exclude=.git --exclude=node_modules --exclude=build -R'
