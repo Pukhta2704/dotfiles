@@ -88,6 +88,7 @@ e2fsprogs
 efibootmgr
 efivar
 electron22
+electron25
 elementary-icon-theme
 exo
 expat
@@ -799,6 +800,7 @@ pulseaudio
 pulseaudio-bluetooth
 python
 python-alembic
+python-annotated-types
 python-attrs
 python-autocommand
 python-babel
@@ -860,6 +862,7 @@ python-pyasn1
 python-pycodestyle
 python-pycparser
 python-pydantic
+python-pydantic-core
 python-pynacl
 python-pytz
 python-setuptools
