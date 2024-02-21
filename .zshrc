@@ -166,3 +166,5 @@ export _JAVA_AWT_WM_NONREPARENTING=1
 # mvn clean install;sudo docker build -t uiserver:latest .
 #
 # sudo docker cp bpm-platform.xml camundapsqldit2:/camunda/conf
+
+alias gh='eval "$(ssh-agent -s)";ssh-add ~/.ssh/github'
