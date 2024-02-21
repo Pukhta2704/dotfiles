@@ -127,24 +127,24 @@ alias mpv='devour mpv'
 alias zathura='devour zathura'
 alias sxiv='devour sxiv'
 alias jobs='vi ~/work/jobs/jobs.json'
-alias aml="mvn clean install;cd target;sudo docker cp ybaml.war camundapsqldit2:/camunda/webapps;cd ..;"
+alias aml="mvn clean install;cd target;sudo docker cp ybaml.war camundapsqldit720:/camunda/webapps;cd ..;"
 # alias aml="mvn clean install;cd target;sudo docker cp ybaml.war camundatest:/camunda/webapps;cd ..;"
-alias alert="mvn clean install;cd target;sudo docker cp ALERT.war camundapsqldit2:/camunda/webapps;cd ..;"
-alias declined="mvn clean install;cd target;sudo docker cp declinedtransaction.war camundapsqldit2:/camunda/webapps;cd ..;"
-alias blocked="mvn clean install;cd target;sudo docker cp ybfrmblocksettlement.war camundapsqldit2:/camunda/webapps;cd ..;"
-alias risknot="mvn clean install;cd target;sudo docker cp risknotification.war camundapsqldit2:/camunda/webapps;cd ..;"
-alias cub="mvn clean install;cd target;sudo docker cp cubrisknotification.war camundapsqldit2:/camunda/webapps;cd ..;"
-alias usfb="mvn clean install;cd target;sudo docker cp usfbrisknotification.war camundapsqldit2:/camunda/webapps;cd ..;"
-# alias sanctions="mvn clean install;cd target;sudo docker cp sanctions.war camundapsqldit2:/camunda/webapps;cd ..;"
-alias sanctions="mvn clean install;cd target;sudo docker cp sanctions.war camundapsqldit2:/camunda/webapps;cd ..;"
-alias camunda="sudo docker stop camundapsqldit2;cd ~/work/drona/apps/camunda2/ ;sudo docker-compose up -d"
+alias alert="mvn clean install;cd target;sudo docker cp ALERT.war camundapsqldit720:/camunda/webapps;cd ..;"
+alias declined="mvn clean install;cd target;sudo docker cp declinedtransaction.war camundapsqldit720:/camunda/webapps;cd ..;"
+alias blocked="mvn clean install;cd target;sudo docker cp ybfrmblocksettlement.war camundapsqldit720:/camunda/webapps;cd ..;"
+alias risknot="mvn clean install;cd target;sudo docker cp risknotification.war camundapsqldit720:/camunda/webapps;cd ..;"
+alias cub="mvn clean install;cd target;sudo docker cp cubrisknotification.war camundapsqldit720:/camunda/webapps;cd ..;"
+alias usfb="mvn clean install;cd target;sudo docker cp usfbrisknotification.war camundapsqldit720:/camunda/webapps;cd ..;"
+# alias sanctions="mvn clean install;cd target;sudo docker cp sanctions.war camundapsqldit720:/camunda/webapps;cd ..;"
+alias sanctions="mvn clean install;cd target;sudo docker cp sanctions.war camundapsqldit720:/camunda/webapps;cd ..;"
+alias camunda="sudo docker stop camundapsqldit720;cd ~/work/drona/apps/camunda2/ ;sudo docker-compose up -d"
 
 
-alias qc="mvn clean install;cd target;sudo docker cp ybqc.war camundapsqldit2:/camunda/webapps;cd ..;"
-alias logs="sudo docker logs camundapsqldit2;"
-alias riskymerchant="mvn clean install;cd target;sudo docker cp riskymerchantsettlement.war camundapsqldit2:/camunda/webapps;cd .."
+alias qc="mvn clean install;cd target;sudo docker cp ybqc.war camundapsqldit720:/camunda/webapps;cd ..;"
+alias logs="sudo docker logs camundapsqldit720;"
+alias riskymerchant="mvn clean install;cd target;sudo docker cp riskymerchantsettlement.war camundapsqldit720:/camunda/webapps;cd .."
 
-# alias logs2="sudo docker logs camundapsqldit2;"
+# alias logs2="sudo docker logs camundapsqldit720;"
 
 # alias ct='ctags --exclude=.git --exclude=node_modules --exclude=build -R'
 
@@ -165,6 +165,6 @@ export _JAVA_AWT_WM_NONREPARENTING=1
 #
 # mvn clean install;sudo docker build -t uiserver:latest .
 #
-# sudo docker cp bpm-platform.xml camundapsqldit2:/camunda/conf
+# sudo docker cp bpm-platform.xml camundapsqldit720:/camunda/conf
 
 alias gh='eval "$(ssh-agent -s)";ssh-add ~/.ssh/github'
