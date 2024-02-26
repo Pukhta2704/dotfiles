@@ -168,3 +168,5 @@ export _JAVA_AWT_WM_NONREPARENTING=1
 # sudo docker cp bpm-platform.xml camundapsqldit720:/camunda/conf
 
 alias gh='eval "$(ssh-agent -s)";ssh-add ~/.ssh/github'
+
+# export JAVA_HOME=/usr/lib/jvm/java-17-openjdk/bin/java

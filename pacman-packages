@@ -520,6 +520,14 @@ libatomic_ops
 libavc1394
 libavif
 libblockdev
+libblockdev-crypto
+libblockdev-fs
+libblockdev-loop
+libblockdev-mdraid
+libblockdev-nvme
+libblockdev-part
+libblockdev-swap
+libblockdev-utils
 libbluray
 libbpf
 libbs2b
@@ -819,6 +827,7 @@ openpmix
 openssh
 openssl
 openssl-1.1
+openucx
 openvpn
 opus
 orc
