@@ -128,6 +128,7 @@ alias zathura='devour zathura'
 alias sxiv='devour sxiv'
 alias jobs='vi ~/work/jobs/jobs.json'
 alias aml="mvn clean install;cd target;sudo docker cp ybaml.war camundapsqldit720:/camunda/webapps;cd ..;"
+alias amlpobo="mvn clean install;cd target;sudo docker cp ybamlpobo.war camundapsqldit720:/camunda/webapps;cd ..;"
 # alias aml="mvn clean install;cd target;sudo docker cp ybaml.war camundatest:/camunda/webapps;cd ..;"
 alias alert="mvn clean install;cd target;sudo docker cp ALERT.war camundapsqldit720:/camunda/webapps;cd ..;"
 alias declined="mvn clean install;cd target;sudo docker cp declinedtransaction.war camundapsqldit720:/camunda/webapps;cd ..;"
@@ -170,3 +171,8 @@ export _JAVA_AWT_WM_NONREPARENTING=1
 alias gh='eval "$(ssh-agent -s)";ssh-add ~/.ssh/github'
 
 # export JAVA_HOME=/usr/lib/jvm/java-17-openjdk/bin/java
+#
+
+jt() {
+    mvn test -Dtest=$1
+}
