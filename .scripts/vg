@@ -1,0 +1,13 @@
+#! /usr/bin/bash
+
+# gcc $1
+gcc $1 -o a.out -lm
+# ./a.out
+#echo "Press any key to clear"
+echo ""
+# read 
+#
+# valgrind --leak-check=full --show-leak-kinds=all --track-origins=yes ./a.out
+valgrind ./a.out
+rm ./a.out
+# clear

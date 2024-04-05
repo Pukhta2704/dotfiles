@@ -20,6 +20,7 @@ pgadmin4
 postman-bin
 pulseaudio-ctl
 pulseaudiocontrol
+python-sqlalchemy1.3
 simplescreenrecorder
 stripe-cli-bin
 timeshift-bin

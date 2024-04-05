@@ -142,7 +142,7 @@ alias camunda="sudo docker stop camundapsqldit720;cd ~/work/drona/apps/camunda2/
 
 
 alias qc="mvn clean install;cd target;sudo docker cp ybqc.war camundapsqldit720:/camunda/webapps;cd ..;"
-alias logs="sudo docker logs camundapsqldit720;"
+# alias logs="sudo docker logs camundapsqldit720;"
 alias riskymerchant="mvn clean install;cd target;sudo docker cp riskymerchantsettlement.war camundapsqldit720:/camunda/webapps;cd .."
 
 # alias logs2="sudo docker logs camundapsqldit720;"
@@ -172,7 +172,15 @@ alias gh='eval "$(ssh-agent -s)";ssh-add ~/.ssh/github'
 
 # export JAVA_HOME=/usr/lib/jvm/java-17-openjdk/bin/java
 #
+ # export JAVA_HOME=/usr/lib/jvm/java-17-openjdk
+#
 
 jt() {
     mvn test -Dtest=$1
 }
+
+# 21 maven version=3.8.7
+# 17 maven version=3.9.4
+#
+#
+alias logs='sudo docker ps -a --filter "name=camunda" --format "{{.ID}}" | xargs -I{} sudo docker logs -f {}'
