@@ -88,6 +88,7 @@ e2fsprogs
 efibootmgr
 efivar
 electron27
+electron28
 elementary-icon-theme
 exo
 expat
@@ -421,8 +422,6 @@ jbigkit
 jdk-openjdk
 jdk17-openjdk
 jq
-jre17-openjdk
-jre17-openjdk-headless
 json-c
 json-glib
 jsoncpp
@@ -500,6 +499,7 @@ lib32-libgcrypt
 lib32-libgpg-error
 lib32-libldap
 lib32-libnl
+lib32-libnsl
 lib32-libpcap
 lib32-libpng
 lib32-libtirpc
@@ -608,6 +608,7 @@ libiec61883
 libieee1284
 libimagequant
 libimobiledevice
+libimobiledevice-glue
 libinih
 libinput
 libinstpatch
@@ -805,6 +806,7 @@ minizip
 mkinitcpio
 mkinitcpio-busybox
 mobile-broadband-provider-info
+mpdecimal
 mpfr
 mpg123
 mpv
@@ -917,6 +919,7 @@ python-flask-compress
 python-flask-gravatar
 python-flask-login
 python-flask-mail
+python-flask-mailman
 python-flask-migrate
 python-flask-paranoid
 python-flask-principal
@@ -926,6 +929,7 @@ python-flask-wtf
 python-gobject
 python-gssapi
 python-idna
+python-importlib_resources
 python-inflect
 python-itsdangerous
 python-jaraco.context
@@ -955,7 +959,6 @@ python-pydantic-core
 python-pynacl
 python-pytz
 python-setuptools
-python-shiboken2
 python-simplejson
 python-six
 python-speaklater
@@ -964,12 +967,14 @@ python-sshtunnel
 python-testtools
 python-tomli
 python-trove-classifiers
+python-typeguard
 python-typing_extensions
 python-validate-pyproject
 python-webencodings
 python-werkzeug
 python-wheel
 python-wtforms
+python-zipp
 qca-qt5
 qca-qt6
 qt5-base
@@ -1052,6 +1057,13 @@ tpm2-tss
 tracker3
 tree
 tree-sitter
+tree-sitter-bash
+tree-sitter-c
+tree-sitter-lua
+tree-sitter-markdown
+tree-sitter-python
+tree-sitter-query
+tree-sitter-vimdoc
 tslib
 ttf-font-awesome
 ttf-inconsolata

@@ -9,5 +9,5 @@ echo ""
 #
 # valgrind --leak-check=full --show-leak-kinds=all --track-origins=yes ./a.out
 valgrind ./a.out
-rm ./a.out
+rm ./a.out vg*
 # clear
