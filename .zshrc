@@ -134,6 +134,7 @@ alias alert="mvn clean install;cd target;sudo docker cp ALERT.war camundapsqldit
 alias declined="mvn clean install;cd target;sudo docker cp declinedtransaction.war camundapsqldit720:/camunda/webapps;cd ..;"
 alias blocked="mvn clean install;cd target;sudo docker cp ybfrmblocksettlement.war camundapsqldit720:/camunda/webapps;cd ..;"
 alias risknot="mvn clean install;cd target;sudo docker cp risknotification.war camundapsqldit720:/camunda/webapps;cd ..;"
+alias jpbrisknot="mvn clean install;cd target;sudo docker cp JPBRiskNotification.war camundapsqldit720:/camunda/webapps;cd ..;"
 alias cub="mvn clean install;cd target;sudo docker cp cubrisknotification.war camundapsqldit720:/camunda/webapps;cd ..;"
 alias usfb="mvn clean install;cd target;sudo docker cp usfbrisknotification.war camundapsqldit720:/camunda/webapps;cd ..;"
 # alias sanctions="mvn clean install;cd target;sudo docker cp sanctions.war camundapsqldit720:/camunda/webapps;cd ..;"

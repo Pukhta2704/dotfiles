@@ -8,6 +8,8 @@ case "$class" in
     (Xfce4-terminal)
         #echo "desktop=^1 follow=on";;
 	;;
+    ("jetbrains-idea-ce")
+        echo "";;
     ("firefox")
         echo "desktop=^2 follow=on";;
     ("Google-chrome")
