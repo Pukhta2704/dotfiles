@@ -785,6 +785,8 @@ lpsolve
 lsb-release
 lua
 lua-lpeg
+lua51
+lua51-lpeg
 luajit
 luit
 lvm2
