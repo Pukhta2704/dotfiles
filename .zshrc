@@ -128,6 +128,7 @@ alias zathura='devour zathura'
 alias sxiv='devour sxiv'
 alias jobs='vi ~/work/jobs/jobs.json'
 alias aml="mvn clean install;cd target;sudo docker cp ybaml.war camundapsqldit720:/camunda/webapps;cd ..;"
+alias jpslriskymerchant="mvn clean install;cd target;sudo docker cp jpslriskymerchantsettlement.war camundapsqldit720:/camunda/webapps;cd ..;"
 alias amlpobo="mvn clean install;cd target;sudo docker cp ybamlpobo.war camundapsqldit720:/camunda/webapps;cd ..;"
 # alias aml="mvn clean install;cd target;sudo docker cp ybaml.war camundatest:/camunda/webapps;cd ..;"
 alias alert="mvn clean install;cd target;sudo docker cp ALERT.war camundapsqldit720:/camunda/webapps;cd ..;"
