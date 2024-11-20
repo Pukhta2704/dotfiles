@@ -443,10 +443,10 @@ java-environment-common
 java-runtime-common
 jbig2dec
 jbigkit
-jdk-openjdk
 jdk11-openjdk
 jdk17-openjdk
 jq
+jre-openjdk
 json-c
 json-glib
 jsoncpp
@@ -601,6 +601,7 @@ libatomic_ops
 libavc1394
 libavif
 libb2
+libb64
 libblockdev
 libblockdev-crypto
 libblockdev-fs
@@ -703,6 +704,7 @@ libmpdclient
 libmpeg2
 libmspub
 libmwaw
+libnatpmp
 libndp
 libnet
 libnetfilter_conntrack
@@ -880,6 +882,7 @@ mingw-w64-crt
 mingw-w64-gcc
 mingw-w64-headers
 mingw-w64-winpthreads
+miniupnpc
 minizip
 mkinitcpio
 mkinitcpio-busybox
@@ -978,6 +981,7 @@ python-fastjsonschema
 python-filelock
 python-gobject
 python-inflect
+python-jaraco.collections
 python-jaraco.context
 python-jaraco.functools
 python-jaraco.text
@@ -1084,6 +1088,7 @@ thunar-volman
 tinysparql
 tk
 tpm2-tss
+transmission-qt
 tree
 tree-sitter
 tree-sitter-bash
