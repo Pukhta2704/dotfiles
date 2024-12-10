@@ -29,6 +29,7 @@ postman-bin
 pulseaudio-ctl
 pulseaudiocontrol
 python-shiboken2
+python311
 simplescreenrecorder
 stripe-cli-bin
 timeshift-bin
