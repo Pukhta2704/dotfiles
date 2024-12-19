@@ -187,3 +187,4 @@ jt() {
 #
 #
 alias logs='sudo docker ps -a --filter "name=camunda" --format "{{.ID}}" | xargs -I{} sudo docker logs -f {}'
+eval "$(pyenv init --path)"

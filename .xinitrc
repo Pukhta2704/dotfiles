@@ -64,3 +64,4 @@ exec lxsession &
 exec redshift -O 2500 &
 # exec startxfce4 
 exec bspwm 
+
